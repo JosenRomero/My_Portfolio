@@ -1,10 +1,10 @@
 
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container, Row, Col } from 'react-bootstrap';
 
 const Header = () => {
 
     return(
-        <section id="home" className="bg-dark text-white">
+        <header id="home" className="bg-dark text-white">
             <Container>
                 <Row>
                     <Col className="text-center">
@@ -14,7 +14,7 @@ const Header = () => {
                     </Col>
                 </Row>
             </Container>
-        </section>
+        </header>
     );
     
 }
