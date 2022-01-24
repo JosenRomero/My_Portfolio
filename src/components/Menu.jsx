@@ -1,12 +1,10 @@
 
-import Navbar from 'react-bootstrap/Navbar'
-import Nav from 'react-bootstrap/Nav'
-import Container from 'react-bootstrap/Container'
+import { Navbar, Nav, Container } from 'react-bootstrap'
 
 const Menu = () => {
 
     return(
-        <Navbar bg="light" expand="lg" fixed="top">
+        <Navbar expand="lg" fixed="top" bg="dark" variant="dark">
             <Container fluid>
                 <Navbar.Brand href="/">JosenRomero</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
