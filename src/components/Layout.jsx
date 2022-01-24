@@ -1,9 +1,12 @@
 
+import Menu from './Menu';
+
 const Layout = ({children}) => {
 
     return(
         <>
-            <div>Menu</div>
+            <Menu />
+
             {children}
 
             <div>footer</div>
