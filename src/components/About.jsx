@@ -1,6 +1,9 @@
 
 import { Container, Row, Col, Button } from 'react-bootstrap';
 
+import Icon from '@mdi/react';
+import { mdiGithub, mdiInstagram, mdiEmail  } from '@mdi/js';
+
 const About = () => {
 
     return(
@@ -24,12 +27,15 @@ const About = () => {
                         </div>
                         <div class="ms-3">
                             <Button href="https://github.com/JosenRomero" className="me-1" variant="outline-secondary" target="_blank">
+                            <Icon path={mdiGithub} size={1}/>
                                 Github
                             </Button>
                             <Button href="https://www.instagram.com/josen._.romero/" className="me-1" variant="outline-secondary" target="_blank">
+                                <Icon path={mdiInstagram} size={1}/>
                                 Instagram
                             </Button>
                             <Button href="mailto:romerojosemanuel@hotmail.com" className="me-1" variant="outline-secondary">
+                                <Icon path={mdiEmail} size={1}/>
                                 Email
                             </Button>
                         </div>
