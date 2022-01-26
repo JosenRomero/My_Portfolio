@@ -12,7 +12,7 @@ const About = () => {
                 <Row>
                     <h3 className="text-center">About me</h3>
                     <Col className="my-4">
-                        <div class="ms-3">
+                        <div className="ms-3">
                             <p>
                                 My name is José Romero.<br />
                                 I am a self-taught JavaScript Developer.<br />
@@ -20,14 +20,14 @@ const About = () => {
                                 and I am currently learning jest.<br />
                             </p>
                             <p>
-                                <span class="text-muted">Email:</span> romerojosemanuel@hotmail.com<br />
-                                <span class="text-muted">Country:</span> El Salvador<br />
-                                <span class="text-muted">City:</span> Santiago de María<br />
+                                <span className="text-muted">Email:</span> romerojosemanuel@hotmail.com<br />
+                                <span className="text-muted">Country:</span> El Salvador<br />
+                                <span className="text-muted">City:</span> Santiago de María<br />
                             </p>
                         </div>
-                        <div class="ms-3">
+                        <div className="ms-3">
                             <Button href="https://github.com/JosenRomero" className="me-1" variant="outline-secondary" target="_blank">
-                            <Icon path={mdiGithub} size={1}/>
+                                <Icon path={mdiGithub} size={1}/>
                                 Github
                             </Button>
                             <Button href="https://www.instagram.com/josen._.romero/" className="me-1" variant="outline-secondary" target="_blank">
