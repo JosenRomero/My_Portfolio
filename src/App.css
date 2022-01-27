@@ -1,4 +1,10 @@
 
+#principal {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 section {
     padding-top: 70px;
 }
@@ -23,4 +29,10 @@ section {
     margin-right: auto;
     margin-top: 10px;
     border: 3px solid black;
+}
+
+.notFoundPage {
+    flex: 1;
+    display: flex;
+    align-items: center;
 }

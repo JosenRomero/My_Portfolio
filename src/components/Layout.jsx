@@ -1,16 +1,15 @@
 
 import Menu from './Menu';
+import Footer from './Footer';
 
 const Layout = ({children}) => {
 
     return(
-        <>
+        <div id="principal">
             <Menu />
-
             {children}
-
-            <div>footer</div>
-        </>
+            <Footer />
+        </div>
     );
 
 }
