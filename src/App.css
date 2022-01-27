@@ -1,4 +1,8 @@
 
+section {
+    padding-top: 70px;
+}
+
 #home {
     min-height: 100vh;
     display: flex;

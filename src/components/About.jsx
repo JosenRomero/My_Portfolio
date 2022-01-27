@@ -10,7 +10,7 @@ const About = () => {
         <section id="about">
             <Container>
                 <Row>
-                    <h3 className="text-center">About me</h3>
+                    <h3 className="text-center mb-5">About me</h3>
                     <Col className="my-4">
                         <div className="ms-3">
                             <p>
