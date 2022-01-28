@@ -12,9 +12,9 @@ const Projects = () => {
             <Container>
                 <Row>
                     <h3 className="text-center mb-5">Projects</h3>
-                    { projects.map((project) => {   
+                    { projects.map((project, i) => {   
                         return (
-                            <Project project={project} />
+                            <Project project={project} key={i} />
                         );    
                     })}
                 </Row>

@@ -10,9 +10,9 @@ const HomePage = () => {
         <>
             <Header />
             <About />
-            <hr class="col-md-10 offset-md-1" />
+            <hr className="col-md-10 offset-md-1" />
             <Projects />
-            <hr class="col-md-10 offset-md-1" />
+            <hr className="col-md-10 offset-md-1" />
             <Skills />
         </>
     );

@@ -6,7 +6,7 @@ import Icon from '@mdi/react';
 const Project = ({project}) => {
 
     return(
-        <Col md={6} key={project.title}>
+        <Col md={6}>
 
             <Card className="mb-4 shadow-sm">
                 { (project.imageSmall)
@@ -18,9 +18,9 @@ const Project = ({project}) => {
                     <hr />
                     <div className="d-flex">
                         <div className="ms-auto">
-                            { project.programming_language.map((icon)=> {
+                            { project.programming_language.map((icon, i)=> {
                                 return(
-                                    <Icon path={icon[0]} color={icon[1]} size={1} />
+                                    <Icon path={icon[0]} color={icon[1]} size={1} key={i} />
                                 );
                             })}
                         </div>
