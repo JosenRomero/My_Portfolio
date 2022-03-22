@@ -1,9 +1,13 @@
 
 import { Container, Row, Col } from 'react-bootstrap';
 
+import { useTranslation } from 'react-i18next';
+
 import Fade from 'react-reveal/Fade';
 
 const Header = () => {
+
+    const { t } = useTranslation();
 
     return(
         <header id="home" className="bg-dark text-white">
@@ -11,9 +15,9 @@ const Header = () => {
                 <Row>
                     <Fade bottom>
                         <Col className="text-center">
-                            <h1>Hi, I'm José Romero</h1>
-                            <p>I'm a JavaScript Developer</p>
-                            <p>Based in Central America.</p>
+                            <h1>{ t('header.p1')}</h1>
+                            <p>{ t('header.p2')}</p>
+                            <p>{ t('header.p3')}</p>
                         </Col>
                     </Fade>
                 </Row>

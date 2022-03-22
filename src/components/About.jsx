@@ -6,26 +6,30 @@ import { mdiGithub, mdiInstagram, mdiEmail  } from '@mdi/js';
 
 import Fade from 'react-reveal/Fade';
 
+import { useTranslation } from 'react-i18next';
+
 const About = () => {
+
+    const { t } = useTranslation();
 
     return(
         <section id="about">
             <Container>
                 <Row>
-                    <h3 className="text-center mb-5">About me</h3>
+                    <h3 className="text-center mb-5">{ t('about.title')}</h3>
                     <Col className="my-4">
                         <Fade bottom>
                             <div className="ms-3">
                                 <p>
-                                    My name is José Romero.<br />
-                                    I am a self-taught JavaScript Developer.<br />
-                                    I like working with new tools and technologies<br />
-                                    and I am currently learning jest.<br />
+                                    { t('about.p1')}<br />
+                                    { t('about.p2')}<br />
+                                    { t('about.p3')}<br />
+                                    { t('about.p4')}<br />
                                 </p>
                                 <p>
-                                    <span className="text-muted">Email:</span> romerojosemanuel@hotmail.com<br />
-                                    <span className="text-muted">Country:</span> El Salvador<br />
-                                    <span className="text-muted">City:</span> Santiago de María<br />
+                                    <span className="text-muted">{ t('about.email')}</span> romerojosemanuel@hotmail.com<br />
+                                    <span className="text-muted">{ t('about.country')}</span> El Salvador<br />
+                                    <span className="text-muted">{ t('about.city')}</span> Santiago de María<br />
                                 </p>
                             </div>
                             <div className="ms-3">

@@ -1,0 +1,27 @@
+{
+    "header": {
+       "p1": "Hola, soy José Romero",
+        "p2": "Soy un programador de Javascript",
+        "p3": "Vivo en Centroamérica."
+    },
+    "about": {
+        "title": "Sobre mi",
+        "p1": "Mi nombre es José Romero.",
+        "p2": "Soy un programador autodidacta de Javascript.",
+        "p3": "Me gusta trabajar con nuevas herramientas y tecnologías",
+        "p4": "y actualmente estoy aprendiendo jest.",
+        "email": "Correo:",
+        "country": "País:",
+        "city": "Ciudad:"
+    },
+    "menu": {
+        "language": "Idioma",
+        "home": "Incio",
+        "about": "Acerca",
+        "projects": "Proyectos",
+        "skills": "Habilidades"
+    },
+    "myProjects": "Mis Proyectos",
+    "mySkills": "Mis Habilidades",
+    "footer": "Diseñado & Desarrollado por José Romero"
+}
