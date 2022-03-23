@@ -22,11 +22,11 @@ const Menu = () => {
                     <Dropdown.Toggle variant="dark" id="dropdown-basic">
                         <Icon path={mdiTranslate} color={"#ffffff"} size={1}/>
                     </Dropdown.Toggle>
-                    <Dropdown.Menu>
+                    <Dropdown.Menu align={{ lg: 'start' }}>
                         <Dropdown.ItemText>{ t("menu.language") }</Dropdown.ItemText>
                         <Dropdown.Divider />
-                        <Dropdown.Item as="button" className={i18n.language === 'es' ? "bg-secondary text-light" : ""} onClick={changeLanguage} value='es'>Español</Dropdown.Item>
-                        <Dropdown.Item as="button" className={i18n.language === 'en' ? "bg-secondary text-light" : ""} onClick={changeLanguage} value='en'>English</Dropdown.Item>
+                        <Dropdown.Item as="button" className={i18n.resolvedLanguage === 'es' ? "bg-secondary text-light" : ""} onClick={changeLanguage} value='es'>Español</Dropdown.Item>
+                        <Dropdown.Item as="button" className={i18n.resolvedLanguage === 'en' ? "bg-secondary text-light" : ""} onClick={changeLanguage} value='en'>English</Dropdown.Item>
                     </Dropdown.Menu>
                 </Dropdown>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
