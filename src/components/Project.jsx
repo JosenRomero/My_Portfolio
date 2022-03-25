@@ -3,12 +3,17 @@ import { Row, Col, Card, Button } from 'react-bootstrap';
 
 import Icon from '@mdi/react';
 
+import { useContext } from 'react';
+import { ThemeContext } from '../context/theme-context';
+
 const Project = ({project}) => {
+
+    const { theme } = useContext(ThemeContext);
 
     return(
         <Col md={6}>
 
-            <Card className="mb-4 shadow-sm">
+            <Card className={`bg-${theme} mb-4 shadow-sm`}>
                 { (project.imageSmall)
                     ? <Card.Img className="imgSmall" src={project.image} /> 
                     : <Card.Img src={project.image} />

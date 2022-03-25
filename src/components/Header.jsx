@@ -3,14 +3,19 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 import { useTranslation } from 'react-i18next';
 
+import { useContext } from 'react';
+import { ThemeContext } from '../context/theme-context';
+
 import Fade from 'react-reveal/Fade';
 
 const Header = () => {
 
     const { t } = useTranslation();
 
+    const { theme } = useContext(ThemeContext);
+
     return(
-        <header id="home" className="bg-dark text-white">
+        <header id="home" className={`bg-${theme}`}>
             <Container>
                 <Row>
                     <Fade bottom>
