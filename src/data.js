@@ -32,23 +32,23 @@ const programming_language = {
 
 export const projects = [
     {
-        image: "images/dailyapp_img.png",
+        image: "images/daily_img.png",
         imageSmall: false,
-        title: "Daily App",
+        title: "Daily",
         programming_language: [
             programming_language.react,
             programming_language.nodeJS,
             programming_language.bootstrap
         ],
         view_code: {
-            frontend: "https://github.com/JosenRomero/DailyApp",
+            frontend: "https://github.com/JosenRomero/Daily",
             backend: "https://github.com/JosenRomero/backend-with-nodejs"
         },
         open_project: "https://daily-react-app.herokuapp.com/"
     },
     {
-        image: "images/darklydreamingapp_img.png",
-        title: "Darkly Dreaming App",
+        image: "images/darklydreaming_img.png",
+        title: "Darkly Dreaming",
         imageSmall: false,
         programming_language: [
             programming_language.angular,
@@ -57,10 +57,10 @@ export const projects = [
             programming_language.typescript
         ],
         view_code: {
-            frontend: "https://github.com/JosenRomero/DarklyDreamingApp",
+            frontend: "https://github.com/JosenRomero/DarklyDreaming",
             backend: "https://github.com/JosenRomero/simple-backend"
         },
-        open_project: "https://darkly-dreaming-app.vercel.app/notes"
+        open_project: "https://darkly-dreaming.vercel.app/notes"
     },
     {
         image: "images/notesapp_img.png",
