@@ -11,6 +11,7 @@ import {
     mdiReact,
     // Redux
     mdiAngular, 
+    mdiFirebase, 
     mdiBootstrap,
     mdiLanguageKotlin,
     mdiLanguageTypescript
@@ -25,6 +26,7 @@ const programming_language = {
     webpack: [mdiWebpack, "#1c78c0", "Webpack"],
     react: [mdiReact, "#61dafb", "React"],
     angular: [mdiAngular, "#c4473a", "Angular"],
+    firebase: [mdiFirebase, "#ffca2a", "Firebase"],
     bootstrap: [mdiBootstrap, "#5b4282", "Bootstrap"],
     kotlin: [mdiLanguageKotlin, "#7f6cb1", "Kotlin"],
     typescript: [mdiLanguageTypescript, "#007acc", "Typescript"]
@@ -47,20 +49,19 @@ export const projects = [
         open_project: "https://daily-react-app.herokuapp.com/"
     },
     {
-        image: "images/darklydreaming_img.png",
-        title: "Darkly Dreaming",
+        image: "images/11seconds_img.png",
+        title: "11seconds",
         imageSmall: false,
         programming_language: [
-            programming_language.angular,
-            programming_language.nodeJS,
+            programming_language.react,
             programming_language.bootstrap,
-            programming_language.typescript
+            programming_language.firebase
         ],
         view_code: {
-            frontend: "https://github.com/JosenRomero/DarklyDreaming",
-            backend: "https://github.com/JosenRomero/simple-backend"
+            frontend: "https://github.com/JosenRomero/11seconds",
+            backend: ""
         },
-        open_project: "https://darkly-dreaming.vercel.app/notes"
+        open_project: "https://11seconds.vercel.app/"
     },
     {
         image: "images/notesapp_img.png",
@@ -98,7 +99,7 @@ export const skills = [
     programming_language.git,
     programming_language.webpack,
     programming_language.react,
-    programming_language.angular,
+    programming_language.firebase,
     programming_language.bootstrap,
     programming_language.kotlin,
     programming_language.typescript
