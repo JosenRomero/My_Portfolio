@@ -19,20 +19,19 @@ const About = () => {
                     <h3 className="text-center mb-5">{ t('about.title')}</h3>
                     <Col className="my-4">
                         <Fade bottom>
-                            <div className="ms-3">
-                                <p>
+                            <div className="d-flex">
+                                <p className="mx-auto">
                                     { t('about.p1')}<br />
                                     { t('about.p2')}<br />
                                     { t('about.p3')}<br />
                                     { t('about.p4')}<br />
-                                </p>
-                                <p>
+                                    <br />
                                     <span className="text-muted">{ t('about.email')}</span> romerojosemanuel@hotmail.com<br />
                                     <span className="text-muted">{ t('about.country')}</span> El Salvador<br />
                                     <span className="text-muted">{ t('about.city')}</span> Santiago de María<br />
                                 </p>
                             </div>
-                            <div className="ms-3">
+                            <div className="text-center">
                                 <Button href="https://github.com/JosenRomero" className="m-1" variant="outline-secondary" target="_blank">
                                     <Icon path={mdiGithub} size={1}/>
                                     Github
