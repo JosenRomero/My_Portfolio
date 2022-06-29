@@ -1,5 +1,5 @@
 
-import { Container, Row } from 'react-bootstrap';
+import { Container, Row, Button } from 'react-bootstrap';
 
 import { useTranslation } from 'react-i18next';
 
@@ -25,6 +25,11 @@ const Projects = () => {
                             <Project project={project} key={i} />
                         );    
                     })}
+                    <div className="text-center">
+                        <Button href={'https://github.com/JosenRomero'} className="my-3" variant="primary" target="_blank">
+                            More Projects
+                        </Button>
+                    </div>
                 </Row>
             </Container>
         </section>

@@ -1,6 +1,6 @@
 {
     "header": {
-       "p1": "Hola, soy José Romero",
+        "p1": "Hola, soy José Romero",
         "p2": "Soy un programador de Javascript",
         "p3": "Vivo en Centroamérica."
     },
@@ -21,7 +21,7 @@
         "projects": "Proyectos",
         "skills": "Habilidades"
     },
-    "myProjects": "Mis Proyectos",
+    "myProjects": "Mis Proyectos Personales",
     "mySkills": "Mis Habilidades",
     "footer": "Diseñado & Desarrollado por José Romero"
 }
