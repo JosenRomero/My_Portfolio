@@ -59,3 +59,29 @@ section {
     color: #f5f5f5;
     background-color: #191919;
 }
+
+.nav-link {
+    color: rgba(0,0,0,.9) !important;
+}
+
+nav .navbar-nav>a:after {
+    display: block;
+    width: 0;
+    height: 2px;
+    background: linear-gradient(to right, #1363DF 0%, #47B5FF 100%);
+    content: "";
+    transition: width 0.2s;
+}
+
+nav .navbar-nav>a:hover:after {
+    width: 100%;
+}
+
+nav .navbar-nav>.blueActive:after {
+    display: block !important;
+    width: 100% !important;
+    height: 2px !important;
+    background: linear-gradient(to right, #1363DF 0%, #47B5FF 100%) !important;
+    content: "" !important;
+    transition: width 0.2s !important;
+}

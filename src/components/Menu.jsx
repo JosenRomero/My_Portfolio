@@ -12,11 +12,15 @@ import { ThemeContext } from '../context/theme-context';
 import { mdiWhiteBalanceSunny } from '@mdi/js'; 
 import { mdiWeatherNight } from '@mdi/js'; 
 
+import { useScrollspy } from '../hooks/useScrollspy';
+
 const Menu = () => {
 
     const { t, i18n } = useTranslation();
 
     const { dark, theme, toggle } = useContext(ThemeContext);
+
+    const { addActiveClass } = useScrollspy(["home", "about", "projects", "skills"], 50);
 
     const changeLanguage = (e) => {
         i18n.changeLanguage(e.target.value);
@@ -25,7 +29,7 @@ const Menu = () => {
     const changeTheme = () => toggle();
 
     return(
-        <Navbar expand="lg" fixed="top" bg={theme} variant={theme} collapseOnSelect>
+        <Navbar expand="sm" fixed="top" bg={theme} variant={theme} collapseOnSelect>
             <Container fluid>
                 <Navbar.Brand href="/">JosenRomero</Navbar.Brand>
                 <Button variant="transparent">
@@ -35,7 +39,7 @@ const Menu = () => {
                     <Dropdown.Toggle variant="transparent" id="dropdown-basic">
                         <Icon path={mdiTranslate} color={dark ? "#fff" : "#212529"} size={1}/>
                     </Dropdown.Toggle>
-                    <Dropdown.Menu align={{ lg: 'start' }}>
+                    <Dropdown.Menu align={{ sm: 'start' }}>
                         <Dropdown.ItemText>{ t("menu.language") }</Dropdown.ItemText>
                         <Dropdown.Divider />
                         <Dropdown.Item as="button" className={i18n.resolvedLanguage === 'es' ? "bg-secondary text-light" : ""} onClick={changeLanguage} value='es'>Español</Dropdown.Item>
@@ -45,10 +49,10 @@ const Menu = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">
-                        <Nav.Link href="/#home" eventKey={1}>{ t("menu.home") }</Nav.Link>
-                        <Nav.Link href="/#about" eventKey={2}>{ t("menu.about") }</Nav.Link>
-                        <Nav.Link href="/#projects" eventKey={3}>{ t("menu.projects") }</Nav.Link>
-                        <Nav.Link href="/#skills" eventKey={4}>{ t("menu.skills") }</Nav.Link>
+                        <Nav.Link className={addActiveClass("home")} href="/#home" eventKey={1}>{ t("menu.home") }</Nav.Link>
+                        <Nav.Link className={addActiveClass("about")} href="/#about" eventKey={2}>{ t("menu.about") }</Nav.Link>
+                        <Nav.Link className={addActiveClass("projects")} href="/#projects" eventKey={3}>{ t("menu.projects") }</Nav.Link>
+                        <Nav.Link className={addActiveClass("skills")} href="/#skills" eventKey={4}>{ t("menu.skills") }</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
