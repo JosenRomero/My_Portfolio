@@ -24,6 +24,13 @@ section {
     align-items: center;
 }
 
+#home p {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
 #myPhoto {
     border-radius: 50%;
     display: block;
@@ -60,8 +67,12 @@ section {
     background-color: #191919;
 }
 
-.nav-link {
+#nav-link-light a {
     color: rgba(0,0,0,.9) !important;
+}
+
+#nav-link-dark a {
+    color: rgba(255, 255, 255, 0.9) !important;
 }
 
 nav .navbar-nav>a:after {

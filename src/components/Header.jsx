@@ -22,7 +22,7 @@ const Header = () => {
                 <Row>
                     <Fade bottom>
                         <Col className="text-center">
-                            <h1>{ t('header.p1')}</h1>
+                            <h1 class="fw-bold">{ t('header.p1')}</h1>
                             <p>{ t('header.p2')}</p>
                             <p>{ t('header.p3')}</p>
                             <Button href={pdf} className="me-2" variant="primary" target="_blank">
