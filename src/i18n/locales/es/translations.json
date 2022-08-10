@@ -6,10 +6,7 @@
     },
     "about": {
         "title": "Sobre mi",
-        "p1": "Mi nombre es José Romero.",
-        "p2": "Soy un programador autodidacta de Javascript.",
-        "p3": "Me gusta trabajar con nuevas herramientas y tecnologías",
-        "p4": "y actualmente estoy aprendiendo jest.",
+        "p1": "Soy un programador autodidacta de Javascript y he estado aprendiendo con ayuda de diferentes recursos en línea. Me gusta trabajar con nuevas herramientas y tecnologías y actualmente estoy aprendiendo jest.",
         "email": "Correo:",
         "country": "País:",
         "city": "Ciudad:"

@@ -47,13 +47,20 @@ const Project = ({project}) => {
                             }
                         </Col>
                     </Row>
-                    <Col className="d-grid gap-2">
-                        { (project.open_project !== "") &&
+                    { (project.open_project !== "") &&
+                        <Col className="d-grid gap-2">
                             <Button href={project.open_project} variant="primary" target="_blank">
-                                Open Project
+                                Live Demo
                             </Button>
-                        }
-                    </Col>
+                        </Col>
+                    }
+                    { (project.download_apk) &&
+                        <Col className="d-grid gap-2">
+                            <Button href={project.download_apk} variant="primary" target="_blank">
+                                Download Demo
+                            </Button>
+                        </Col> 
+                    }
                 </Card.Footer>
             </Card>
 

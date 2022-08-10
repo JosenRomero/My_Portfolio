@@ -74,7 +74,8 @@ export const projects = [
             frontend: "https://github.com/JosenRomero/NotesApp",
             backend: ""
         },
-        open_project: ""
+        open_project: "",
+        download_apk: "apk/notes-app-debug.apk"
     },
     {
         image: "images/musicplayerapp_img.png",
@@ -87,7 +88,8 @@ export const projects = [
             frontend: "https://github.com/JosenRomero/init21MediaPlayer",
             backend: ""
         },
-        open_project: ""
+        open_project: "",
+        download_apk: "apk/mediaplayer-app-debug.apk"
     }
 ];
 

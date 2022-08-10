@@ -22,9 +22,6 @@ const About = () => {
                             <div className="d-flex">
                                 <p className="mx-auto">
                                     { t('about.p1')}<br />
-                                    { t('about.p2')}<br />
-                                    { t('about.p3')}<br />
-                                    { t('about.p4')}<br />
                                     <br />
                                     <span className="text-muted">{ t('about.email')}</span> romerojosemanuel@hotmail.com<br />
                                     <span className="text-muted">{ t('about.country')}</span> El Salvador<br />
