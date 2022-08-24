@@ -64,18 +64,18 @@ export const projects = [
         open_project: "https://11seconds.vercel.app/"
     },
     {
-        image: "images/notesapp_img.png",
-        title: "Notes App",
+        image: "images/withkapp_img.png",
+        title: "WithK App",
         imageSmall: true,
         programming_language: [
             programming_language.kotlin
         ],
         view_code: {
-            frontend: "https://github.com/JosenRomero/NotesApp",
+            frontend: "https://github.com/JosenRomero/withK",
             backend: ""
         },
         open_project: "",
-        download_apk: "apk/notes-app-debug.apk"
+        download_apk: "apk/withk-app-debug.apk"
     },
     {
         image: "images/musicplayerapp_img.png",
