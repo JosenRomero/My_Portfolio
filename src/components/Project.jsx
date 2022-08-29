@@ -33,19 +33,18 @@ const Project = ({project}) => {
                 </Card.Body>
                 <Card.Footer>
                     <Row className="my-2">
-                        <Col xs={12} sm={4} md={12} lg={4}>
-                            <p>View code: </p>
-                        </Col>
-                        <Col xs={12} sm={8} md={12} lg={8}>
+                        <Col className={(project.view_code.backend !== "") ? "d-grid gap-2 col-6" : "d-grid gap-2"}>
                             <Button href={project.view_code.frontend} className="me-2" variant="outline-secondary" target="_blank">
                                 Frontend
                             </Button>
-                            { (project.view_code.backend !== "") &&
+                        </Col>
+                        { (project.view_code.backend !== "") &&
+                            <Col className="d-grid gap-2 col-6">
                                 <Button href={project.view_code.backend} className="me-2" variant="outline-secondary" target="_blank">
                                     Backend
                                 </Button>
-                            }
-                        </Col>
+                            </Col>
+                        }
                     </Row>
                     { (project.open_project !== "") &&
                         <Col className="d-grid gap-2">
