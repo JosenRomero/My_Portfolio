@@ -9,6 +9,8 @@ import { ThemeContext } from '../context/theme-context';
 import Fade from 'react-reveal/Fade';
 
 import pdf from '../assets/resume.pdf';
+import { mdiTrayArrowDown } from '@mdi/js'; 
+import Icon from '@mdi/react';
 
 const Header = () => {
 
@@ -26,7 +28,8 @@ const Header = () => {
                             <p>{ t('header.p2')}</p>
                             <p>{ t('header.p3')}</p>
                             <Button href={pdf} className="me-2" variant="primary" target="_blank">
-                                Resume
+                                <Icon path={mdiTrayArrowDown} color={"#fff"} size={1} />
+                                <span className='ms-2'>Resume</span>
                             </Button>
                         </Col>
                     </Fade>

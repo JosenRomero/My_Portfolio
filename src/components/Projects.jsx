@@ -9,6 +9,9 @@ import Project from './Project';
 
 import Tada from 'react-reveal/Tada';
 
+import { mdiOpenInNew } from '@mdi/js'; 
+import Icon from '@mdi/react';
+
 const Projects = () => {
 
     const { t } = useTranslation();
@@ -27,7 +30,8 @@ const Projects = () => {
                     })}
                     <div className="text-center">
                         <Button href={'https://github.com/JosenRomero'} className="my-3" variant="primary" target="_blank">
-                            More Projects
+                            <Icon path={mdiOpenInNew} color={"#fff"} size={1} />
+                            <span className='ms-2'>More Projects</span>
                         </Button>
                     </div>
                 </Row>
