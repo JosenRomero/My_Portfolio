@@ -31,15 +31,12 @@ const About = () => {
                             <div className="mt-3">
                                 <Button href="https://github.com/JosenRomero" className="m-1 ms-0" variant="outline-secondary" target="_blank">
                                     <Icon path={mdiGithub} size={1}/>
-                                    <span className='ms-2'>Github</span>
-                                </Button>
-                                <Button href="https://www.instagram.com/josen._.romero/" className="m-1" variant="outline-secondary" target="_blank">
-                                    <Icon path={mdiInstagram} size={1}/>
-                                    <span className='ms-2'>Instagram</span>
                                 </Button>
                                 <Button href="mailto:romerojosemanuel@hotmail.com" className="m-1" variant="outline-secondary">
                                     <Icon path={mdiEmail} size={1}/>
-                                    <span className='ms-2'>Email</span>
+                                </Button>
+                                <Button href="https://www.instagram.com/josen._.romero/" className="m-1" variant="outline-secondary" target="_blank">
+                                    <Icon path={mdiInstagram} size={1}/>
                                 </Button>
                             </div>
                         </Fade>

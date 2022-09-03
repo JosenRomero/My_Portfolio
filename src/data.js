@@ -46,7 +46,7 @@ export const projects = [
             frontend: "https://github.com/JosenRomero/Daily",
             backend: "https://github.com/JosenRomero/backend-with-nodejs"
         },
-        open_project: "https://daily-react-app.herokuapp.com/"
+        open_project: "https://daily2022.vercel.app/"
     },
     {
         image: "images/11seconds_img.png",
