@@ -24,10 +24,9 @@ const Header = () => {
                 <Row>
                     <Fade bottom>
                         <Col className="text-center">
-                            <h1 className="fw-bold">{ t('header.p1')}</h1>
+                            <h1>{ t('header.p1')} <span className={'d-md-inline-flex d-block'}>José Romero</span></h1>
                             <p>{ t('header.p2')}</p>
-                            <p>{ t('header.p3')}</p>
-                            <Button href={pdf} className="me-2" variant="primary" target="_blank">
+                            <Button href={pdf} variant="primary" target="_blank">
                                 <Icon path={mdiTrayArrowDown} color={"#fff"} size={1} />
                                 <span className='ms-2'>Resume</span>
                             </Button>

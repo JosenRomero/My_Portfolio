@@ -1,8 +1,7 @@
 {
     "header": {
-        "p1": "Hi, I'm José Romero",
-        "p2": "I'm a JavaScript Developer",
-        "p3": "Based in Central America."
+        "p1": "Hi, I'm",
+        "p2": "JavaScript Developer"
     },
     "about": {
         "title": "About me",

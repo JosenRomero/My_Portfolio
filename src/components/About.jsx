@@ -28,7 +28,7 @@ const About = () => {
                                     <span className="text-muted">{ t('about.city')}</span> Santiago de María<br />
                                 </p>
                             </div>
-                            <div className="mt-3">
+                            <div className="mt-1">
                                 <Button href="https://github.com/JosenRomero" className="m-1 ms-0" variant="outline-secondary" target="_blank">
                                     <Icon path={mdiGithub} size={1}/>
                                 </Button>

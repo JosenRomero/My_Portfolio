@@ -1,12 +1,11 @@
 {
     "header": {
-        "p1": "Hola, soy José Romero",
-        "p2": "Soy un programador de Javascript",
-        "p3": "Vivo en Centroamérica."
+        "p1": "Hola, soy",
+        "p2": "Programador Javascript"
     },
     "about": {
         "title": "Sobre mi",
-        "p1": "Soy un programador autodidacta de Javascript y he estado aprendiendo con ayuda de diferentes recursos en línea. Me gusta trabajar con nuevas herramientas y tecnologías y actualmente estoy aprendiendo jest.",
+        "p1": "Soy programador autodidacta de Javascript y he estado aprendiendo con ayuda de diferentes recursos en línea. Me gusta trabajar con nuevas herramientas y tecnologías y actualmente estoy aprendiendo jest.",
         "email": "Correo:",
         "country": "País:",
         "city": "Ciudad:"
