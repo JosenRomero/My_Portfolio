@@ -1,7 +1,8 @@
 {
     "header": {
         "p1": "Hi, I'm",
-        "p2": "JavaScript Developer"
+        "p2": "JavaScript Developer",
+        "p3": "Download my CV"
     },
     "about": {
         "title": "About me",

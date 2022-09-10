@@ -28,7 +28,7 @@ const Header = () => {
                             <p>{ t('header.p2')}</p>
                             <Button href={pdf} variant="primary" target="_blank">
                                 <Icon path={mdiTrayArrowDown} color={"#fff"} size={1} />
-                                <span className='ms-2'>Resume</span>
+                                <span className='ms-2'>{ t('header.p3') }</span>
                             </Button>
                         </Col>
                     </Fade>
