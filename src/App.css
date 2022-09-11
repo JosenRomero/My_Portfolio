@@ -39,6 +39,11 @@ h3 {
     font-size: 30px;
 }
 
+#home .container {
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
 .socialMedia {
     margin-top: 70px;
     text-align: center;
