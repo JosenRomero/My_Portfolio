@@ -16,6 +16,7 @@ body {
 
 section {
     padding-top: 70px;
+    padding-bottom: 70px;
 }
 
 h1 {
@@ -31,10 +32,23 @@ h3 {
     min-height: 100vh;
     display: flex;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 #home p {
     font-size: 30px;
+}
+
+.socialMedia {
+    position: absolute;
+    bottom: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+.itemsCenter {
+    display: flex;
+    align-items: center;
 }
 
 #myPhoto {
