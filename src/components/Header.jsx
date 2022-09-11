@@ -12,6 +12,8 @@ import pdf from '../assets/resume.pdf';
 import { mdiTrayArrowDown } from '@mdi/js'; 
 import Icon from '@mdi/react';
 
+import SocialMedia from './SocialMedia';
+
 const Header = () => {
 
     const { t } = useTranslation();
@@ -32,6 +34,7 @@ const Header = () => {
                             <span className='ms-2'>{ t('header.p3') }</span>
                         </Button>
                     </Col>
+                    <SocialMedia />
                 </Row>
             </Container>
         </header>
