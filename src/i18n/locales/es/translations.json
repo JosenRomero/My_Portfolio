@@ -5,7 +5,7 @@
         "p3": "Descarga mi CV"
     },
     "about": {
-        "title": "Sobre mi",
+        "title": "Sobre mí",
         "p1": "Soy programador autodidacta de Javascript y he estado aprendiendo con ayuda de diferentes recursos en línea. Me gusta trabajar con nuevas herramientas y tecnologías y actualmente estoy aprendiendo jest.",
         "email": "Correo:",
         "country": "País:",
@@ -14,7 +14,7 @@
     "menu": {
         "language": "Idioma",
         "home": "Incio",
-        "about": "Acerca",
+        "about": "Sobre mí",
         "projects": "Proyectos",
         "skills": "Habilidades"
     },
