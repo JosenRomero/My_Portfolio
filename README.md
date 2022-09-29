@@ -1,5 +1,5 @@
 # José Romero
 
-I'm a Full-Stack JavaScript Developer.
+I'm a self-taught frontend developer.
 
 My portfolio will show you a little bit what I can do.
