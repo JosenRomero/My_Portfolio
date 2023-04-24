@@ -13,6 +13,7 @@ import {
     mdiAngular, 
     mdiFirebase, 
     mdiBootstrap,
+    mdiTailwind,
     mdiLanguageKotlin,
     mdiLanguageTypescript
 } from '@mdi/js';
@@ -28,11 +29,42 @@ const programming_language = {
     angular: [mdiAngular, "#c4473a", "Angular"],
     firebase: [mdiFirebase, "#ffca2a", "Firebase"],
     bootstrap: [mdiBootstrap, "#5b4282", "Bootstrap"],
+    tailwind: [mdiTailwind, "#38bdf8", "Tailwind"],
     kotlin: [mdiLanguageKotlin, "#7f6cb1", "Kotlin"],
     typescript: [mdiLanguageTypescript, "#007acc", "Typescript"]
 }
 
 export const projects = [
+    {
+        image: "images/rememberThemGame _img.png",
+        imageSmall: false,
+        title: "Remember Them Game",
+        programming_language: [
+            programming_language.react,
+            programming_language.tailwind
+        ],
+        view_code:{
+            frontend: "https://github.com/JosenRomero/remember_them_game",
+            backend: ""
+        },
+        open_project: "https://remember-them-game.netlify.app/"
+    },
+    {
+        image: "images/btcChat_img.png",
+        imageSmall: false,
+        title: "BTC Chat",
+        programming_language: [
+            programming_language.react,
+            programming_language.typescript,
+            programming_language.tailwind,
+            programming_language.nodeJS
+        ],
+        view_code:{
+            frontend: "https://github.com/JosenRomero/BTC-Chat",
+            backend: ""
+        },
+        open_project: "https://btc-chat.onrender.com/"
+    },
     {
         image: "images/daily_img.png",
         imageSmall: false,
