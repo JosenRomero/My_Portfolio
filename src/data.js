@@ -135,6 +135,7 @@ export const skills = [
     programming_language.react,
     programming_language.firebase,
     programming_language.bootstrap,
+    programming_language.tailwind,
     programming_language.kotlin,
     programming_language.typescript
 ];
