@@ -20,9 +20,9 @@ const About = () => {
                                 <p className="mx-auto">
                                     { t('about.p1')}<br />
                                     <br />
-                                    <span className="text-muted">{ t('about.email')}</span> romerojosemanuel@hotmail.com<br />
-                                    <span className="text-muted">{ t('about.country')}</span> El Salvador<br />
-                                    <span className="text-muted">{ t('about.city')}</span> Santiago de María<br />
+                                    <span className="fw-light">{ t('about.email')}</span> romerojosemanuel@hotmail.com<br />
+                                    <span className="fw-light">{ t('about.country')}</span> El Salvador<br />
+                                    <span className="fw-light">{ t('about.city')}</span> Santiago de María<br />
                                 </p>
                             </div>
                         </Fade>

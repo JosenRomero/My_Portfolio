@@ -27,7 +27,7 @@ const Header = () => {
                     <Col className="text-center">
                         <Zoom>
                             <h1>{ t('header.p1')} <span className={'d-md-inline-flex d-block'}>José Romero</span></h1>
-                            <p className="text-muted">{ t('header.p2')}</p>
+                            <p className="fw-light">{ t('header.p2')}</p>
                         </Zoom>
                         <Button href={pdf} variant="primary" target="_blank">
                             <Icon path={mdiTrayArrowDown} color={"#fff"} size={1} />
