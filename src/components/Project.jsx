@@ -18,7 +18,7 @@ const Project = ({project}) => {
             <Card className={`bg-${theme} mb-4 shadow-sm`}>
                 <Card.Img className={(project.imageSmall) ? "imgSmall" : ""} src={project.image} /> 
                 <Card.Body>
-                    <Card.Title>{project.title}</Card.Title>
+                    <Card.Title className="fw-light">{project.title}</Card.Title>
                     <hr />
                     <div className="d-flex">
                         <div className="ms-auto">
