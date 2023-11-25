@@ -1,12 +1,16 @@
 
 import { Container, Row } from 'react-bootstrap';
 
+import { useTranslation } from 'react-i18next';
+
 const NotFoundPage = () => {
+
+    const { t } = useTranslation();
 
     return(
         <Container className="notFoundPage">  
-            <Row className="shadow p-3 bg-white rounded w-100 text-center">
-                <h5>Not Found Page</h5>
+            <Row className="w-100 text-center">
+                <h5>{ t("not_found_page") }</h5>
             </Row>
         </Container>
     );

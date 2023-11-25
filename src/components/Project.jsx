@@ -20,8 +20,8 @@ const Project = ({project, index}) => {
 
             <Card className={`bg-${theme} mb-4 shadow-sm`}>
                 <Card.Img className={(project.imageSmall) ? "imgSmall" : ""} src={project.image} /> 
-                <Card.Body>
-                    <Card.Title className={(theme == "dark") ? "text-light" : "text-dark"}>{project.title}</Card.Title>
+                <Card.Body className={(theme == "dark") ? "text-light" : "text-dark"}>
+                    <Card.Title>{project.title}</Card.Title>
                     <hr />
                     <div className="d-flex">
                         <div className="ms-auto">
