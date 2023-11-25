@@ -12,11 +12,10 @@ const AppRouter = () => {
         <Router>
             <Layout>
                 <Routes>
-                    
-                    <Route path="/" element={ <HomePage /> } />
-
-                    <Route path="*" element={ <NotFoundPage />} />
-                    
+                    <Route path="/">
+                        <Route index element={ <HomePage /> } />
+                        <Route path="*" element={ <NotFoundPage />} />
+                    </Route>
                 </Routes>
             </Layout>
         </Router>
