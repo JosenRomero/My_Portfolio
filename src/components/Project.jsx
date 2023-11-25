@@ -3,13 +3,16 @@ import { Row, Col, Card } from 'react-bootstrap';
 
 import Icon from '@mdi/react';
 
+import { useTranslation } from 'react-i18next';
+
 import { useContext } from 'react';
 import { ThemeContext } from '../context/theme-context';
 
 import ColButton from './ColButton';
 
-const Project = ({project}) => {
+const Project = ({project, index}) => {
 
+    const { t } = useTranslation();
     const { theme } = useContext(ThemeContext);
 
     return(
@@ -29,8 +32,11 @@ const Project = ({project}) => {
                             })}
                         </div>
                     </div>
+                    <div className="mt-3">
+                        <p>{ t(`project_descriptions.${index}`) }</p>
+                    </div>
                 </Card.Body>
-                <Card.Footer>
+                <Card.Footer className="p-3">
                     <Row className="my-2">
                         <ColButton 
                             link={project.view_code.frontend}

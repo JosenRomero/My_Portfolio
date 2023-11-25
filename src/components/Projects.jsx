@@ -25,13 +25,13 @@ const Projects = () => {
                     </Tada>
                     { projects.map((project, i) => {   
                         return (
-                            <Project project={project} key={i} />
+                            <Project project={project} index={i} key={i} />
                         );    
                     })}
                     <div className="text-center">
                         <Button href={'https://github.com/JosenRomero'} className="my-3" variant="primary" target="_blank">
                             <Icon path={mdiOpenInNew} color={"#fff"} size={1} />
-                            <span className='ms-2'>More Projects</span>
+                            <span className='ms-2'>{ t("more_rojects") }</span>
                         </Button>
                     </div>
                 </Row>
