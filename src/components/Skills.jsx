@@ -5,8 +5,6 @@ import { useTranslation } from 'react-i18next';
 
 import { skills } from '../data';
 
-import Icon from '@mdi/react';
-
 import Zoom from 'react-reveal/Zoom';
 
 const Skills = () => {
@@ -22,8 +20,10 @@ const Skills = () => {
                         { skills.map((skill, i) => {
                             return (
                                 <Col xs={6} sm={4} md={3} key={i}>
-                                    <Icon path={skill[0]} color={skill[1]} size={3} />
-                                    <p>{skill[2]}</p>
+                                    <div className="iconBig">
+                                        <skill.icon />
+                                    </div>
+                                    <p>{skill.name}</p>
                                 </Col>
                             );
                         })}

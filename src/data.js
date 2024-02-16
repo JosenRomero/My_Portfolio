@@ -1,37 +1,29 @@
-
-import {
-    mdiLanguageHtml5,
-    mdiLanguageCss3,
-    mdiLanguageJavascript,
-    mdiNodejs, 
-    mdiGit,
-    mdiWebpack,
-    // Express
-    // mongoDB
-    mdiReact,
-    // Redux
-    mdiAngular, 
-    mdiFirebase, 
-    mdiBootstrap,
-    mdiTailwind,
-    mdiLanguageKotlin,
-    mdiLanguageTypescript
-} from '@mdi/js';
+import { 
+    IconHTML, 
+    IconCSS3, 
+    IconJavascript,
+    IconNodeJS,
+    IconGit,
+    IconReact,
+    IconFirebase,
+    IconBootstrap,
+    IconTailwind,
+    IconKotlin,
+    IconTypescript
+} from './Icons/Icons'
 
 const programming_language = {
-    html5: [mdiLanguageHtml5, "#e44d26", "HTML5"],
-    css3: [mdiLanguageCss3, "#1572b6", "CSS3"],
-    javascript: [mdiLanguageJavascript, "#f0db4f", "Javascript"],
-    nodeJS: [mdiNodejs, "#83cd29" , "NodeJS"],
-    git: [mdiGit, "#f34f29", "Git"],
-    webpack: [mdiWebpack, "#1c78c0", "Webpack"],
-    react: [mdiReact, "#61dafb", "React"],
-    angular: [mdiAngular, "#c4473a", "Angular"],
-    firebase: [mdiFirebase, "#ffca2a", "Firebase"],
-    bootstrap: [mdiBootstrap, "#5b4282", "Bootstrap"],
-    tailwind: [mdiTailwind, "#38bdf8", "Tailwind"],
-    kotlin: [mdiLanguageKotlin, "#7f6cb1", "Kotlin"],
-    typescript: [mdiLanguageTypescript, "#007acc", "Typescript"]
+    html5: { icon: IconHTML, name: "HTML5"},
+    css3: { icon: IconCSS3, name: "CSS3"},
+    javascript: { icon: IconJavascript, name: "Javascript"},
+    nodeJS: { icon: IconNodeJS, name: "NodeJS"},
+    git: { icon: IconGit, name: "Git"},
+    react: { icon: IconReact, name: "React"},
+    firebase: { icon: IconFirebase, name: "Firebase"},
+    bootstrap: { icon: IconBootstrap, name: "Bootstrap"},
+    tailwind: { icon: IconTailwind, name: "Tailwind"},
+    kotlin: { icon: IconKotlin, name: "Kotlin"},
+    typescript: { icon: IconTypescript, name: "Typescript"}
 }
 
 export const projects = [
@@ -131,7 +123,6 @@ export const skills = [
     programming_language.javascript,
     programming_language.nodeJS,
     programming_language.git,
-    programming_language.webpack,
     programming_language.react,
     programming_language.firebase,
     programming_language.bootstrap,

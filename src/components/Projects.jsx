@@ -9,8 +9,7 @@ import Project from './Project';
 
 import Tada from 'react-reveal/Tada';
 
-import { mdiOpenInNew } from '@mdi/js'; 
-import Icon from '@mdi/react';
+import { IconOpenInNew } from '../Icons/Icons'
 
 const Projects = () => {
 
@@ -30,7 +29,7 @@ const Projects = () => {
                     })}
                     <div className="text-center">
                         <Button href={'https://github.com/JosenRomero'} className="my-3" variant="primary" target="_blank">
-                            <Icon path={mdiOpenInNew} color={"#fff"} size={1} />
+                            <IconOpenInNew />
                             <span className='ms-2'>{ t("more_rojects") }</span>
                         </Button>
                     </div>

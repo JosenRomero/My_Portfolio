@@ -1,16 +1,12 @@
 
 import { Navbar, Nav, Container, Dropdown, Button } from 'react-bootstrap';
 
-import { mdiTranslate } from '@mdi/js'; 
-import Icon from '@mdi/react';
-
 import { useTranslation } from 'react-i18next';
 
 import { useContext } from 'react';
 import { ThemeContext } from '../context/theme-context';
 
-import { mdiWhiteBalanceSunny } from '@mdi/js'; 
-import { mdiWeatherNight } from '@mdi/js'; 
+import { IconSunny, IconMoon, IconTranslate } from '../Icons/Icons';
 
 import { useScrollspy } from '../hooks/useScrollspy';
 
@@ -32,12 +28,12 @@ const Menu = () => {
         <Navbar expand="md" fixed="top" bg={theme} variant={theme} collapseOnSelect>
             <Container fluid>
                 <Navbar.Brand href="/">JosenRomero</Navbar.Brand>
-                <Button variant="transparent">
-                    <Icon path={dark ? mdiWhiteBalanceSunny : mdiWeatherNight} color={dark ? "#f0db4f" : "#212529"} size={1} onClick={changeTheme} />
+                <Button variant="transparent" onClick={changeTheme}>
+                    { dark ? <IconSunny /> : <IconMoon /> }
                 </Button>
                 <Dropdown className="ms-2">
                     <Dropdown.Toggle variant="transparent" id="dropdown-basic">
-                        <Icon path={mdiTranslate} color={dark ? "#fff" : "#212529"} size={1}/>
+                        <IconTranslate color={dark ? "#fff" : "#212529"} />
                     </Dropdown.Toggle>
                     <Dropdown.Menu align={{ md: 'start' }}>
                         <Dropdown.ItemText>{ t("menu.language") }</Dropdown.ItemText>

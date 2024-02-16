@@ -9,8 +9,7 @@ import { ThemeContext } from '../context/theme-context';
 import Zoom from 'react-reveal/Zoom';
 
 import pdf from '../assets/resume.pdf';
-import { mdiTrayArrowDown } from '@mdi/js'; 
-import Icon from '@mdi/react';
+import { IconArrowDown } from '../Icons/Icons';
 
 import SocialMedia from './SocialMedia';
 
@@ -30,7 +29,7 @@ const Header = () => {
                             <p className="fw-light">{ t('header.p2')}</p>
                         </Zoom>
                         <Button href={pdf} variant="primary" target="_blank">
-                            <Icon path={mdiTrayArrowDown} color={"#fff"} size={1} />
+                            <IconArrowDown />
                             <span className='ms-2'>{ t('header.p3') }</span>
                         </Button>
                     </Col>

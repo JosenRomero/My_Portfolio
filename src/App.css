@@ -72,6 +72,16 @@ h3 {
     border-radius: 27px;
 }
 
+.iconSmall svg {
+    width: 2rem;
+    height: 2rem;
+}
+
+.iconBig svg {
+    width: 4.5rem;
+    height: 4.5rem;
+}
+
 .notFoundPage {
     flex: 1;
     display: flex;

@@ -1,8 +1,6 @@
 
 import { Row, Col, Card } from 'react-bootstrap';
 
-import Icon from '@mdi/react';
-
 import { useTranslation } from 'react-i18next';
 
 import { useContext } from 'react';
@@ -24,10 +22,12 @@ const Project = ({project, index}) => {
                     <Card.Title>{project.title}</Card.Title>
                     <hr />
                     <div className="d-flex">
-                        <div className="ms-auto">
-                            { project.programming_language.map((icon, i)=> {
+                        <div className="ms-auto d-flex gap-2">
+                            { project.programming_language.map((item, i)=> {
                                 return(
-                                    <Icon path={icon[0]} color={icon[1]} size={1} key={i} />
+                                    <div className="iconSmall" key={i}>
+                                        <item.icon />
+                                    </div>
                                 );
                             })}
                         </div>
