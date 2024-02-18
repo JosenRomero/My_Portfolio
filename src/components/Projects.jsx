@@ -28,7 +28,7 @@ const Projects = () => {
                         );    
                     })}
                     <div className="text-center">
-                        <Button href={'https://github.com/JosenRomero'} className="my-3" variant="primary" target="_blank">
+                        <Button href={'https://github.com/JosenRomero'} className="my-5" variant="primary" target="_blank">
                             <IconOpenInNew />
                             <span className='ms-2'>{ t("more_rojects") }</span>
                         </Button>
