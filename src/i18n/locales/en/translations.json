@@ -6,7 +6,7 @@
     },
     "about": {
         "title": "About me",
-        "p1": "I'm a self-taught JavaScript Developer and I've been learning with the help of different online resources. I like working with new tools and technologies and I'm currently learning jest.",
+        "p1": "I'm a self-taught JavaScript Developer and I've been learning with the help of different online resources. I like working with new tools and technologies and I'm currently learning Next.js.",
         "email": "Email:",
         "country": "Country:",
         "city": "City:"
