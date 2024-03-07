@@ -32,18 +32,19 @@ const programming_language = {
 
 export const projects = [
     {
-        image: "images/rememberThemGame _img.png",
+        image: "images/nextLetterPuzzle_img.png",
         imageSmall: false,
-        title: "Remember Them Game",
+        title: "Next Letter Puzzle Game",
         programming_language: [
             programming_language.react,
             programming_language.tailwind
         ],
         view_code:{
-            frontend: "https://github.com/JosenRomero/remember_them_game",
+            frontend: "",
             backend: ""
         },
-        open_project: "https://remember-them-game.netlify.app/"
+        open_project: "https://next-letter-puzzle.onrender.com/",
+        preview: "https://josenromero.itch.io/next-letter-puzzle"
     },
     {
         image: "images/btcChat_img.png",

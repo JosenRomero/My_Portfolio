@@ -54,6 +54,9 @@ const Project = ({project, index}) => {
                     </Row>
                     <ColButton link={project.open_project} text={"Live Demo"} />
                     <ColButton link={project.download_apk} text={"Download Demo"} />
+                    <Row className="my-2">
+                        <ColButton link={project.preview} text={"Preview"} btn_variant={"outline-primary"} />
+                    </Row>
                 </Card.Footer>
             </Card>
 
