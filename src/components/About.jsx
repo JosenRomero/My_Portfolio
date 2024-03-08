@@ -1,7 +1,7 @@
 
 import { Container, Row, Col } from 'react-bootstrap';
 
-import Fade from 'react-reveal/Fade';
+import { Fade } from 'react-awesome-reveal';
 
 import { useTranslation } from 'react-i18next';
 
@@ -15,7 +15,7 @@ const About = () => {
                 <Row>
                     <h3 className="text-center mb-5">{ t('about.title')}</h3>
                     <Col className="itemsCenter">
-                        <Fade bottom>
+                        <Fade direction="up" triggerOnce>
                             <div className="d-flex">
                                 <p className="mx-auto">
                                     { t('about.p1')}<br />

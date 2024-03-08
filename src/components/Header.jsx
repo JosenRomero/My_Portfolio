@@ -6,7 +6,7 @@ import { useTranslation } from 'react-i18next';
 import { useContext } from 'react';
 import { ThemeContext } from '../context/theme-context';
 
-import Zoom from 'react-reveal/Zoom';
+import { Zoom } from 'react-awesome-reveal';
 
 import pdf from '../assets/resume.pdf';
 import { IconArrowDown } from '../Icons/Icons';

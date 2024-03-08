@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next';
 
 import { skills } from '../data';
 
-import Zoom from 'react-reveal/Zoom';
+import { Zoom } from 'react-awesome-reveal';
 
 const Skills = () => {
 
@@ -13,7 +13,7 @@ const Skills = () => {
 
     return(
         <section id="skills">
-            <Zoom>
+            <Zoom triggerOnce>
                 <Container>
                     <Row className="text-center">
                         <h3 className="mb-5">{ t("mySkills") }</h3>

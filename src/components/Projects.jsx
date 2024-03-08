@@ -7,7 +7,7 @@ import { projects } from '../data';
 
 import Project from './Project';
 
-import Tada from 'react-reveal/Tada';
+import { AttentionSeeker } from 'react-awesome-reveal';
 
 import { IconOpenInNew } from '../Icons/Icons'
 
@@ -19,9 +19,9 @@ const Projects = () => {
         <section id="projects">
             <Container>
                 <Row>
-                    <Tada>
+                    <AttentionSeeker effect={"tada"} triggerOnce>
                         <h3 className="text-center mb-5">{ t("myProjects") }</h3>
-                    </Tada>
+                    </AttentionSeeker>
                     { projects.map((project, i) => {   
                         return (
                             <Project project={project} index={i} key={i} />
