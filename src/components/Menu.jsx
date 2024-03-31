@@ -7,6 +7,7 @@ import { useContext } from 'react';
 import { ThemeContext } from '../context/theme-context';
 
 import { IconSunny, IconMoon, IconTranslate } from '../Icons/Icons';
+import ItemLink from './ItemLink';
 
 const Menu = () => {
 
@@ -40,11 +41,11 @@ const Menu = () => {
                 </Dropdown>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav id={`nav-link-${theme}`} className="ms-auto">
-                        <Nav.Link href="/#home">{ t("menu.home") }</Nav.Link>
-                        <Nav.Link href="/#about">{ t("menu.about") }</Nav.Link>
-                        <Nav.Link href="/#projects">{ t("menu.projects") }</Nav.Link>
-                        <Nav.Link href="/#skills">{ t("menu.skills") }</Nav.Link>
+                    <Nav as={"ul"} id={`nav-link-${theme}`} className="ms-auto">
+                        <ItemLink to="home">{ t("menu.home") }</ItemLink>
+                        <ItemLink to="about">{ t("menu.about") }</ItemLink>
+                        <ItemLink to="projects">{ t("menu.projects") }</ItemLink>
+                        <ItemLink to="skills">{ t("menu.skills") }</ItemLink>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

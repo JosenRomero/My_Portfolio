@@ -30,9 +30,6 @@ h3 {
     min-height: 100vh;
     display: flex;
     align-items: center;
-}
-
-#home p {
     font-size: 30px;
 }
 
@@ -41,7 +38,7 @@ h3 {
     padding-bottom: 30px;
 }
 
-#about {
+#about, #skills {
     padding-top: 100px;
 }
 
@@ -102,15 +99,15 @@ h3 {
     background-color: #191919;
 }
 
-#nav-link-light a {
+#nav-link-light li a {
     color: rgba(0,0,0,.9) !important;
 }
 
-#nav-link-dark a {
+#nav-link-dark li a {
     color: rgba(255, 255, 255, 0.9) !important;
 }
 
-nav .navbar-nav>a:after {
+nav li>a:after {
     display: block;
     width: 0;
     height: 2px;
@@ -119,11 +116,11 @@ nav .navbar-nav>a:after {
     transition: width 0.2s;
 }
 
-nav .navbar-nav>a:hover:after {
+nav li>a:hover:after {
     width: 100%;
 }
 
-nav .navbar-nav>.blueActive:after {
+nav li>.active:after {
     display: block !important;
     width: 100% !important;
     height: 2px !important;
@@ -131,3 +128,14 @@ nav .navbar-nav>.blueActive:after {
     content: "" !important;
     transition: width 0.2s !important;
 }
+
+nav ul li a {
+    display: block;
+    padding: 0px 0.5rem 0px 0.5rem;
+    text-decoration: none;
+}
+  
+nav li {
+    cursor: pointer;
+}
+  
