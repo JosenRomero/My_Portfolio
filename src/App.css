@@ -128,14 +128,3 @@ nav li>.active:after {
     content: "" !important;
     transition: width 0.2s !important;
 }
-
-nav ul li a {
-    display: block;
-    padding: 0px 0.5rem 0px 0.5rem;
-    text-decoration: none;
-}
-  
-nav li {
-    cursor: pointer;
-}
-  
