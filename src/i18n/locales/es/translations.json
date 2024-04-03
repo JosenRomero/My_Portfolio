@@ -1,34 +1,34 @@
 {
-    "header": {
-        "p1": "Hola, soy",
-        "p2": "Frontend Developer",
-        "p3": "Descarga mi CV"
-    },
-    "about": {
-        "title": "Sobre mí",
-        "p1": "Soy programador autodidacta de Javascript y he estado aprendiendo con ayuda de diferentes recursos en línea. Me gusta trabajar con nuevas herramientas y tecnologías y actualmente estoy aprendiendo Next.js.",
-        "email": "Correo:",
-        "country": "País:",
-        "city": "Ciudad:"
-    },
-    "menu": {
-        "language": "Idioma",
-        "home": "Incio",
-        "about": "Sobre mí",
-        "projects": "Proyectos",
-        "skills": "Habilidades"
-    },
-    "myProjects": "Mis Proyectos Personales",
-    "project_descriptions": {
-        "0": "Inspirado en el clásico sopa de letras.",
-        "1": "Un chatbot sobre Bitcoin.",
-        "2": "Un sitio web para guardar notas.",
-        "3": "Una web para subir vídeos.",
-        "4": "Una aplicación para guardar notas.",
-        "5": "Un reproductor de música."
-    },
-    "more_rojects": "Más proyectos",
-    "mySkills": "Mis Habilidades",
-    "not_found_page": "Página no encontrada",
-    "footer": "Diseñado & Desarrollado por José Romero"
+	"header": {
+		"p1": "Hola, soy",
+		"p2": "Frontend Developer",
+		"p3": "Descarga mi CV"
+	},
+	"about": {
+		"title": "Sobre mí",
+		"p1": "Soy programador autodidacta de Javascript y he estado aprendiendo con ayuda de diferentes recursos en línea. Me gusta trabajar con nuevas herramientas y tecnologías y actualmente estoy aprendiendo Next.js.",
+		"email": "Correo:",
+		"country": "País:",
+		"city": "Ciudad:"
+	},
+	"menu": {
+		"language": "Idioma",
+		"home": "Incio",
+		"about": "Sobre mí",
+		"projects": "Proyectos",
+		"skills": "Habilidades"
+	},
+	"myProjects": "Mis Proyectos Personales",
+	"project_descriptions": {
+		"0": "Inspirado en el clásico sopa de letras.",
+		"1": "Un chatbot sobre Bitcoin.",
+		"2": "Un sitio web para guardar notas.",
+		"3": "Una web para subir vídeos.",
+		"4": "Una aplicación para guardar notas.",
+		"5": "Un reproductor de música."
+	},
+	"more_rojects": "Más proyectos",
+	"mySkills": "Mis Habilidades",
+	"not_found_page": "Página no encontrada",
+	"footer": "Diseñado & Desarrollado por José Romero"
 }

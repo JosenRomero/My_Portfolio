@@ -1,34 +1,34 @@
 {
-    "header": {
-        "p1": "Hi, I'm",
-        "p2": "Frontend Developer",
-        "p3": "Download my CV"
-    },
-    "about": {
-        "title": "About me",
-        "p1": "I'm a self-taught JavaScript Developer and I've been learning with the help of different online resources. I like working with new tools and technologies and I'm currently learning Next.js.",
-        "email": "Email:",
-        "country": "Country:",
-        "city": "City:"
-    },
-    "menu": {
-        "language": "Language",
-        "home": "Home",
-        "about": "About me",
-        "projects": "Projects",
-        "skills": "Skills"
-    },
-    "myProjects": "My Personal Projects",
-    "project_descriptions": {
-        "0": "Inspired by the classic word search game.",
-        "1": "A chatbot about Bitcoin.",
-        "2": "A website to save notes.",
-        "3": "A website to upload videos.",
-        "4": "An app to save notes.",
-        "5": "A music player app."
-    },
-    "more_rojects": "More Projects",
-    "mySkills": "My Skills",
-    "not_found_page": "Not Found Page",
-    "footer": "Designed & Built by José Romero"
+	"header": {
+		"p1": "Hi, I'm",
+		"p2": "Frontend Developer",
+		"p3": "Download my CV"
+	},
+	"about": {
+		"title": "About me",
+		"p1": "I'm a self-taught JavaScript Developer and I've been learning with the help of different online resources. I like working with new tools and technologies and I'm currently learning Next.js.",
+		"email": "Email:",
+		"country": "Country:",
+		"city": "City:"
+	},
+	"menu": {
+		"language": "Language",
+		"home": "Home",
+		"about": "About me",
+		"projects": "Projects",
+		"skills": "Skills"
+	},
+	"myProjects": "My Personal Projects",
+	"project_descriptions": {
+		"0": "Inspired by the classic word search game.",
+		"1": "A chatbot about Bitcoin.",
+		"2": "A website to save notes.",
+		"3": "A website to upload videos.",
+		"4": "An app to save notes.",
+		"5": "A music player app."
+	},
+	"more_rojects": "More Projects",
+	"mySkills": "My Skills",
+	"not_found_page": "Not Found Page",
+	"footer": "Designed & Built by José Romero"
 }

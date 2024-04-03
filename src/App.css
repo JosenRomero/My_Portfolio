@@ -1,130 +1,130 @@
-
 body {
-    border: 0;
-    margin: 0;
-    padding: 0;
+	border: 0;
+	margin: 0;
+	padding: 0;
 }
 
 #principal {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
 }
 
 section {
-    padding-top: 70px;
-    padding-bottom: 70px;
+	padding-top: 70px;
+	padding-bottom: 70px;
 }
 
 h1 {
-    font-size: 49px;
-    font-weight: 700;
+	font-size: 49px;
+	font-weight: 700;
 }
 
 h3 {
-    font-size: 30px;
-    font-weight: 600;
+	font-size: 30px;
+	font-weight: 600;
 }
 
 #home {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    font-size: 30px;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	font-size: 30px;
 }
 
 #home .container {
-    padding-top: 70px;
-    padding-bottom: 30px;
+	padding-top: 70px;
+	padding-bottom: 30px;
 }
 
-#about, #skills {
-    padding-top: 100px;
+#about,
+#skills {
+	padding-top: 100px;
 }
 
 .socialMedia {
-    margin-top: 70px;
-    text-align: center;
+	margin-top: 70px;
+	text-align: center;
 }
 
 .itemsCenter {
-    display: flex;
-    align-items: center;
+	display: flex;
+	align-items: center;
 }
 
 #myPhoto {
-    border-radius: 50%;
-    display: block;
-    width: 300px;
-    margin-left: auto;
-    margin-right: auto;
+	border-radius: 50%;
+	display: block;
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .imgSmall {
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    border: 3px solid black;
-    border-radius: 27px;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	border: 3px solid black;
+	border-radius: 27px;
 }
 
 .iconSmall svg {
-    width: 2rem;
-    height: 2rem;
+	width: 2rem;
+	height: 2rem;
 }
 
 .iconBig svg {
-    width: 4.5rem;
-    height: 4.5rem;
+	width: 4.5rem;
+	height: 4.5rem;
 }
 
 .notFoundPage {
-    flex: 1;
-    display: flex;
-    align-items: center;
+	flex: 1;
+	display: flex;
+	align-items: center;
 }
 
 .dropdown-toggle::after {
-    display: none !important; 
+	display: none !important;
 }
 
 .theme-light {
-    color: #000000;
-    background-color: #fff;
+	color: #000000;
+	background-color: #fff;
 }
 
 .theme-dark {
-    color: #f5f5f5;
-    background-color: #191919;
+	color: #f5f5f5;
+	background-color: #191919;
 }
 
 #nav-link-light li a {
-    color: rgba(0,0,0,.9) !important;
+	color: rgba(0, 0, 0, 0.9) !important;
 }
 
 #nav-link-dark li a {
-    color: rgba(255, 255, 255, 0.9) !important;
+	color: rgba(255, 255, 255, 0.9) !important;
 }
 
-nav li>a:after {
-    display: block;
-    width: 0;
-    height: 2px;
-    background: linear-gradient(to right, #1363DF 0%, #47B5FF 100%);
-    content: "";
-    transition: width 0.2s;
+nav li > a:after {
+	display: block;
+	width: 0;
+	height: 2px;
+	background: linear-gradient(to right, #1363df 0%, #47b5ff 100%);
+	content: "";
+	transition: width 0.2s;
 }
 
-nav li>a:hover:after {
-    width: 100%;
+nav li > a:hover:after {
+	width: 100%;
 }
 
-nav li>.active:after {
-    display: block !important;
-    width: 100% !important;
-    height: 2px !important;
-    background: linear-gradient(to right, #1363DF 0%, #47B5FF 100%) !important;
-    content: "" !important;
-    transition: width 0.2s !important;
+nav li > .active:after {
+	display: block !important;
+	width: 100% !important;
+	height: 2px !important;
+	background: linear-gradient(to right, #1363df 0%, #47b5ff 100%) !important;
+	content: "" !important;
+	transition: width 0.2s !important;
 }
