@@ -120,7 +120,7 @@ nav li > a:hover:after {
 	width: 100%;
 }
 
-nav li > .active:after {
+nav li > .blueActive:after {
 	display: block !important;
 	width: 100% !important;
 	height: 2px !important;

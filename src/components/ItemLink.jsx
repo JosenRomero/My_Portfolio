@@ -5,7 +5,7 @@ import { Link } from "react-scroll"
 const ItemLink = ({ to, children }) => {
 	return (
 		<Nav.Item as={"li"}>
-			<Nav.Link as={Link} href={to} activeClass="active" smooth spy offset={-25} to={to}>
+			<Nav.Link as={Link} href={to} activeClass="blueActive" smooth spy offset={-25} to={to} delay={0}>
 				{children}
 			</Nav.Link>
 		</Nav.Item>
