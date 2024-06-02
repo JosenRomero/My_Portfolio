@@ -44,20 +44,18 @@ export const projects = [
 		preview: "https://josenromero.itch.io/next-letter-puzzle",
 	},
 	{
-		image: "images/btcChat_img.png",
+		image: "images/blogJavascriptIsWeird_img.png",
 		imageSmall: false,
-		title: "BTC Chat",
+		title: "Blog: Javascript is weird",
 		programming_language: [
-			programming_language.react,
 			programming_language.typescript,
 			programming_language.tailwind,
-			programming_language.nodeJS,
 		],
 		view_code: {
-			frontend: "https://github.com/JosenRomero/BTC-Chat",
+			frontend: "https://github.com/JosenRomero/javascript-is-weird",
 			backend: "",
 		},
-		open_project: "https://btc-chat.onrender.com/",
+		open_project: "https://javascript-is-weird.onrender.com/",
 	},
 	{
 		image: "images/daily_img.png",
