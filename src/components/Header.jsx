@@ -24,7 +24,7 @@ const Header = () => {
 							</h1>
 							<p className="fw-light">{t("header.p2")}</p>
 						</Zoom>
-						<Button href={pdf} variant="primary" target="_blank">
+						<Button href={pdf} variant="primary" target="_blank" download="resume">
 							<IconArrowDown />
 							<span className="ms-2">{t("header.p3")}</span>
 						</Button>
