@@ -100,16 +100,16 @@ export const projects = [
 		download_apk: "apk/notes-and-more-debug.apk",
 	},
 	{
-		image: "images/musicplayerapp_img.png",
-		title: "Media Player App",
-		imageSmall: true,
+		image: "images/multiples_Of_three_game.webp",
+		title: "Multiples Of Three",
+		imageSmall: false,
 		programming_language: [programming_language.kotlin],
 		view_code: {
-			frontend: "https://github.com/JosenRomero/init21MediaPlayer",
+			frontend: "https://github.com/JosenRomero/MultiplesOfThree",
 			backend: "",
 		},
 		open_project: "",
-		download_apk: "apk/mediaplayer-app-debug.apk",
+		download_apk: "apk/multiples_Of_three_release.apk",
 	},
 ]
 
