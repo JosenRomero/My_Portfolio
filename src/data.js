@@ -32,16 +32,15 @@ const programming_language = {
 
 export const projects = [
 	{
-		image: "images/nextLetterPuzzle_img.png",
+		image: "images/easy_tailwindcss_img.webp",
 		imageSmall: false,
-		title: "Next Letter Puzzle Game",
-		programming_language: [programming_language.react, programming_language.tailwind],
+		title: "Easy Tailwind CSS extension",
+		programming_language: [programming_language.typescript],
 		view_code: {
-			frontend: "",
+			frontend: "https://github.com/JosenRomero/easy-tailwindcss",
 			backend: "",
 		},
-		open_project: "https://next-letter-puzzle.onrender.com/",
-		preview: "https://josenromero.itch.io/next-letter-puzzle",
+		open_project: "https://marketplace.visualstudio.com/items?itemName=josenromero.easy-tailwindcss",
 	},
 	{
 		image: "images/blogJavascriptIsWeird_img.png",
