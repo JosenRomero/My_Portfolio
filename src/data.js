@@ -43,7 +43,7 @@ export const projects = [
 		open_project: "https://marketplace.visualstudio.com/items?itemName=josenromero.easy-tailwindcss",
 	},
 	{
-		image: "images/blogJavascriptIsWeird_img.png",
+		image: "images/blogJavascriptIsWeird_img.webp",
 		imageSmall: false,
 		title: "Blog: Javascript is weird",
 		programming_language: [
@@ -88,9 +88,9 @@ export const projects = [
 		open_project: "https://11seconds.vercel.app/",
 	},
 	{
-		image: "images/noteApp_img.png",
+		image: "images/noteApp_img.webp",
 		title: "Note App",
-		imageSmall: true,
+		imageSmall: false,
 		programming_language: [programming_language.kotlin],
 		view_code: {
 			frontend: "https://github.com/JosenRomero/NoteAndMore",
