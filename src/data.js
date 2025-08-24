@@ -73,19 +73,18 @@ export const projects = [
 		open_project: "https://urusai.vercel.app/",
 	},
 	{
-		image: "images/11seconds_img.png",
-		title: "11seconds",
+		image: "images/next_letter_puzzle_img.webp",
+		title: "Next Letter Puzzle",
 		imageSmall: false,
 		programming_language: [
 			programming_language.react,
-			programming_language.bootstrap,
-			programming_language.firebase,
+			programming_language.tailwind
 		],
 		view_code: {
-			frontend: "https://github.com/JosenRomero/11seconds",
+			frontend: "https://github.com/JosenRomero/my-next-letter-puzzle",
 			backend: "",
 		},
-		open_project: "https://11seconds.vercel.app/",
+		open_project: "https://next-letter-puzzle.onrender.com/",
 	},
 	{
 		image: "images/noteApp_img.webp",
