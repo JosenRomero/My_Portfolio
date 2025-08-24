@@ -57,20 +57,20 @@ export const projects = [
 		open_project: "https://javascript-is-weird.onrender.com/",
 	},
 	{
-		image: "images/daily_img.png",
+		image: "images/urusai_img.webp",
 		imageSmall: false,
-		title: "Daily",
+		title: "Urusai",
 		programming_language: [
 			programming_language.react,
+			programming_language.tailwind,
 			programming_language.nodeJS,
-			programming_language.bootstrap,
 			programming_language.mongoDB,
 		],
 		view_code: {
-			frontend: "https://github.com/JosenRomero/Daily",
-			backend: "https://github.com/JosenRomero/backend-with-nodejs",
+			frontend: "https://github.com/JosenRomero/Urusai",
+			backend: "",
 		},
-		open_project: "https://daily2022.vercel.app/",
+		open_project: "https://urusai.vercel.app/",
 	},
 	{
 		image: "images/11seconds_img.png",
