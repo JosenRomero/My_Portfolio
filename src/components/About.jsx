@@ -10,24 +10,15 @@ const About = () => {
 			<Container>
 				<Row>
 					<h3 className="text-center mb-5">{t("about.title")}</h3>
-					<Col className="itemsCenter">
+					<Col md={6} className="itemsCenter">
 						<Fade direction="up" triggerOnce>
-							<div className="d-flex">
-								<p className="mx-auto">
-									{t("about.p1")}
-									<br />
-									<br />
-									<span className="fw-light">{t("about.email")}</span> romerojosemanuel@hotmail.com
-									<br />
-									<span className="fw-light">{t("about.country")}</span> El Salvador
-									<br />
-									<span className="fw-light">{t("about.city")}</span> Santiago de María
-									<br />
-								</p>
+							<div>
+								<p>{t("about.p1")}</p>
+								<p>{t("about.p2")}</p>
 							</div>
 						</Fade>
 					</Col>
-					<Col className="itemsCenter mt-5 mt-md-0">
+					<Col md={6} className="itemsCenter mt-5 mt-md-0">
 						<img id="myPhoto" src="images/myPhoto_20211230.png" alt="josenromero" />
 					</Col>
 				</Row>

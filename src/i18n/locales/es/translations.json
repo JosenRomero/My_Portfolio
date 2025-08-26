@@ -1,12 +1,13 @@
 {
 	"header": {
 		"p1": "Hola, soy",
-		"p2": "Frontend Developer",
+		"p2": "Fullstack web developer",
 		"p3": "Descarga mi CV"
 	},
 	"about": {
 		"title": "Sobre mí",
-		"p1": "Soy programador autodidacta de Javascript y he estado aprendiendo con ayuda de diferentes recursos en línea. Me gusta trabajar con nuevas herramientas y tecnologías y actualmente estoy aprendiendo Next.js.",
+		"p1": "Soy programador autodidacta y apasionado con 2 años de experiencia desarrollando aplicaciones y colaborando en proyectos de código abierto.",
+		"p2": "Autodidacta eficaz con una sólida comprensión de React.js, Tailwind CSS y Node.js, y comprobada capacidad para gestionar proyectos desde la concepción hasta el despliegue. Busco aportar mi motivación y habilidades técnicas a un equipo dinámico.",
 		"email": "Correo:",
 		"country": "País:",
 		"city": "Ciudad:"
