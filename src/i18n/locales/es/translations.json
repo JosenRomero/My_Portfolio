@@ -7,10 +7,7 @@
 	"about": {
 		"title": "Sobre mí",
 		"p1": "Soy programador autodidacta y apasionado con 2 años de experiencia desarrollando aplicaciones y colaborando en proyectos de código abierto.",
-		"p2": "Autodidacta eficaz con una sólida comprensión de React.js, Tailwind CSS y Node.js, y comprobada capacidad para gestionar proyectos desde la concepción hasta el despliegue. Busco aportar mi motivación y habilidades técnicas a un equipo dinámico.",
-		"email": "Correo:",
-		"country": "País:",
-		"city": "Ciudad:"
+		"p2": "Autodidacta eficaz con una sólida comprensión de React.js, Tailwind CSS y Node.js, y comprobada capacidad para gestionar proyectos desde la concepción hasta el despliegue. Busco aportar mi motivación y habilidades técnicas a un equipo dinámico."
 	},
 	"menu": {
 		"language": "Idioma",
