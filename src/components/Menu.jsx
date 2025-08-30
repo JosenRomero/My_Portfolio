@@ -55,6 +55,7 @@ const Menu = () => {
 						<ItemLink to="home">{t("menu.home")}</ItemLink>
 						<ItemLink to="about">{t("menu.about")}</ItemLink>
 						<ItemLink to="projects">{t("menu.projects")}</ItemLink>
+						<ItemLink to="contributions">{t("menu.open_source")}</ItemLink>
 						<ItemLink to="skills">{t("menu.skills")}</ItemLink>
 					</Nav>
 				</Navbar.Collapse>

@@ -14,9 +14,10 @@
 		"home": "Home",
 		"about": "About me",
 		"projects": "Projects",
+		"open_source": "Open Source",
 		"skills": "Skills"
 	},
-	"myProjects": "My Personal Projects",
+	"myProjects": "Personal Projects",
 	"project_descriptions": {
 		"0": "Generate Tailwind CSS classes with AI.",
 		"1": "A blog dedicated to javascript curiosities.",
@@ -35,7 +36,7 @@
 	},
 	"contribution_btn": "View on GitHub",
 	"more_rojects": "More Projects",
-	"mySkills": "My Skills",
+	"mySkills": "Skills",
 	"not_found_page": "Not Found Page",
 	"footer": "Designed & Built by José Romero"
 }

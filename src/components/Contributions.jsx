@@ -1,5 +1,6 @@
 import { useContext } from "react"
-import { Card, Col, Container, Nav, Row } from "react-bootstrap"
+import { Card, Col, Container, Row } from "react-bootstrap"
+import { AttentionSeeker } from "react-awesome-reveal"
 import { ThemeContext } from "../context/theme-context"
 import ColButton from "./ColButton"
 import { useTranslation } from "react-i18next"
@@ -13,7 +14,9 @@ const Contributions = () => {
     <section id="contributions">
       <Container>
         <Row>
-          <h3 className="text-center mb-5">{t("contributions_title")}</h3>
+          <AttentionSeeker effect={"tada"} triggerOnce>
+            <h3 className="text-center mb-5">{t("contributions_title")}</h3>
+          </AttentionSeeker>
 
           { contributions.map((contribution, i) => {
             return (

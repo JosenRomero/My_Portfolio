@@ -14,9 +14,10 @@
 		"home": "Incio",
 		"about": "Sobre mí",
 		"projects": "Proyectos",
+		"open_source": "Open Source",
 		"skills": "Habilidades"
 	},
-	"myProjects": "Mis Proyectos Personales",
+	"myProjects": "Proyectos Personales",
 	"project_descriptions": {
 		"0": "Genera clases de Tailwind CSS con IA.",
 		"1": "Blog dedicado a las curiosidades de js.",
@@ -35,7 +36,7 @@
 	},
 	"contribution_btn": "Ver en GitHub",
 	"more_rojects": "Más proyectos",
-	"mySkills": "Mis Habilidades",
+	"mySkills": "Habilidades Técnicas",
 	"not_found_page": "Página no encontrada",
 	"footer": "Diseñado & Desarrollado por José Romero"
 }
