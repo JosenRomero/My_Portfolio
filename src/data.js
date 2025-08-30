@@ -127,3 +127,21 @@ export const skills = [
 	programming_language.mongoDB,
 	programming_language.jest,
 ]
+
+export const contributions = [
+	{
+		title: "La velada web oficial",
+		link: "https://github.com/midudev/la-velada-web-oficial",
+		proyects: ["0", "1", "2"]
+	},
+	{
+		title: "http-sentinel",
+		link: "https://github.com/JorgeRosbel/http-sentinel",
+		proyects: ["3"]
+	},
+	{
+		title: "Falso",
+		link: "https://github.com/ngneat/falso",
+		proyects: ["4"]
+	}
+]
