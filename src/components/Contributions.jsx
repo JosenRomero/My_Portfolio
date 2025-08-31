@@ -24,7 +24,7 @@ const Contributions = () => {
                 <Card className={`bg-${theme} mb-4 p-2`}>
                   <Card.Body className={theme == "dark" ? "text-light" : "text-dark"}>
                     <Card.Title>{contribution.title}</Card.Title>
-                    <Card.Text className="mt-4">
+                    <Card.Text className="mt-4" as={"div"}>
                       <ul>
                         {contribution.proyects.map((number, k) => {
                           return <li key={k}>{t(`contributions_descriptions.${number}`)}</li>
