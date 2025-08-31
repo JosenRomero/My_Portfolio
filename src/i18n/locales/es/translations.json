@@ -35,6 +35,12 @@
 		"4": "Nuevas Funcionalidades: Implementé soporte para comida salvadoreña en la función randFood, ampliando las opciones de datos de ejemplo disponibles."
 	},
 	"contribution_btn": "Ver en GitHub",
+	"buttons": {
+		"view_code": "Ver Código",
+		"visit_site": "Ver Sitio Web",
+		"install_on_marketplace": "Instalar en MarketPlace",
+		"download_apk": "Descargar apk"
+	},
 	"more_rojects": "Más proyectos",
 	"mySkills": "Habilidades Técnicas",
 	"not_found_page": "Página no encontrada",

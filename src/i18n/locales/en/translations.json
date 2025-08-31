@@ -35,6 +35,12 @@
 		"4": "New Feature: Implemented support for Salvadoran dishes in the randFood function, significantly expanding the range of example data available."
 	},
 	"contribution_btn": "View on GitHub",
+	"buttons": {
+		"view_code": "View Code",
+		"visit_site": "Visit Site",
+		"install_on_marketplace": "Install on MarketPlace",
+		"download_apk": "Download apk"
+	},
 	"more_rojects": "More Projects",
 	"mySkills": "Skills",
 	"not_found_page": "Not Found Page",

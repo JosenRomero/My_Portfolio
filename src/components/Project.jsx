@@ -35,10 +35,9 @@ const Project = ({ project, index }) => {
 					<ColButton
 						link={project.view_code}
 						btn_variant={"outline-secondary"}
-						text={"View Code"}
+						text={t("buttons.view_code")}
 					/>
-					<ColButton link={project.open_project} text={"Visit Site"} />
-					<ColButton link={project.download_apk} text={"Download Demo"} />
+					<ColButton link={project.open_project.link} text={t(`buttons.${project.open_project.text}`)} />
 				</Card.Footer>
 			</Card>
 		</Col>

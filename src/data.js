@@ -37,7 +37,10 @@ export const projects = [
 		title: "Easy Tailwind CSS extension",
 		programming_language: [programming_language.typescript],
 		view_code: "https://github.com/JosenRomero/easy-tailwindcss",
-		open_project: "https://marketplace.visualstudio.com/items?itemName=josenromero.easy-tailwindcss",
+		open_project: {
+			link: "https://marketplace.visualstudio.com/items?itemName=josenromero.easy-tailwindcss",
+			text: "install_on_marketplace"
+		},
 	},
 	{
 		image: "images/blogJavascriptIsWeird_img.webp",
@@ -48,7 +51,10 @@ export const projects = [
 			programming_language.tailwind,
 		],
 		view_code: "https://github.com/JosenRomero/javascript-is-weird",
-		open_project: "https://javascript-is-weird.onrender.com/",
+		open_project: {
+			link: "https://javascript-is-weird.onrender.com/",
+			text: "visit_site"
+		},
 	},
 	{
 		image: "images/urusai_img.webp",
@@ -61,7 +67,10 @@ export const projects = [
 			programming_language.mongoDB,
 		],
 		view_code: "https://github.com/JosenRomero/Urusai",
-		open_project: "https://urusai.vercel.app/",
+		open_project: {
+			link: "https://urusai.vercel.app/",
+			text: "visit_site"
+		},
 	},
 	{
 		image: "images/next_letter_puzzle_img.webp",
@@ -72,7 +81,10 @@ export const projects = [
 			programming_language.tailwind
 		],
 		view_code: "https://github.com/JosenRomero/my-next-letter-puzzle",
-		open_project: "https://next-letter-puzzle.onrender.com/",
+		open_project: {
+			link: "https://next-letter-puzzle.onrender.com/",
+			text: "visit_site"
+		},
 	},
 	{
 		image: "images/noteApp_img.webp",
@@ -80,7 +92,10 @@ export const projects = [
 		imageSmall: false,
 		programming_language: [programming_language.kotlin],
 		view_code: "https://github.com/JosenRomero/NoteAndMore",
-		download_apk: "apk/notes-and-more-debug.apk",
+		open_project: {
+			link: "apk/notes-and-more-debug.apk",
+			text: "download_apk"
+		},
 	},
 	{
 		image: "images/multiples_Of_three_game.webp",
@@ -88,7 +103,10 @@ export const projects = [
 		imageSmall: false,
 		programming_language: [programming_language.kotlin],
 		view_code: "https://github.com/JosenRomero/MultiplesOfThree",
-		download_apk: "apk/multiples_Of_three_release.apk",
+		open_project: {
+			link: "apk/multiples_Of_three_release.apk",
+			text: "download_apk"
+		},
 	},
 ]
 
