@@ -3,7 +3,7 @@ import { Col, Button } from "react-bootstrap"
 const ColButton = ({
 	link,
 	text,
-	col_className = "d-grid gap-2",
+	col_className = "d-grid",
 	btn_className = "",
 	btn_variant = "primary",
 }) => {

@@ -36,10 +36,7 @@ export const projects = [
 		imageSmall: false,
 		title: "Easy Tailwind CSS extension",
 		programming_language: [programming_language.typescript],
-		view_code: {
-			frontend: "https://github.com/JosenRomero/easy-tailwindcss",
-			backend: "",
-		},
+		view_code: "https://github.com/JosenRomero/easy-tailwindcss",
 		open_project: "https://marketplace.visualstudio.com/items?itemName=josenromero.easy-tailwindcss",
 	},
 	{
@@ -50,10 +47,7 @@ export const projects = [
 			programming_language.typescript,
 			programming_language.tailwind,
 		],
-		view_code: {
-			frontend: "https://github.com/JosenRomero/javascript-is-weird",
-			backend: "",
-		},
+		view_code: "https://github.com/JosenRomero/javascript-is-weird",
 		open_project: "https://javascript-is-weird.onrender.com/",
 	},
 	{
@@ -66,10 +60,7 @@ export const projects = [
 			programming_language.nodeJS,
 			programming_language.mongoDB,
 		],
-		view_code: {
-			frontend: "https://github.com/JosenRomero/Urusai",
-			backend: "",
-		},
+		view_code: "https://github.com/JosenRomero/Urusai",
 		open_project: "https://urusai.vercel.app/",
 	},
 	{
@@ -80,10 +71,7 @@ export const projects = [
 			programming_language.react,
 			programming_language.tailwind
 		],
-		view_code: {
-			frontend: "https://github.com/JosenRomero/my-next-letter-puzzle",
-			backend: "",
-		},
+		view_code: "https://github.com/JosenRomero/my-next-letter-puzzle",
 		open_project: "https://next-letter-puzzle.onrender.com/",
 	},
 	{
@@ -91,11 +79,7 @@ export const projects = [
 		title: "Note App",
 		imageSmall: false,
 		programming_language: [programming_language.kotlin],
-		view_code: {
-			frontend: "https://github.com/JosenRomero/NoteAndMore",
-			backend: "",
-		},
-		open_project: "",
+		view_code: "https://github.com/JosenRomero/NoteAndMore",
 		download_apk: "apk/notes-and-more-debug.apk",
 	},
 	{
@@ -103,11 +87,7 @@ export const projects = [
 		title: "Multiples Of Three",
 		imageSmall: false,
 		programming_language: [programming_language.kotlin],
-		view_code: {
-			frontend: "https://github.com/JosenRomero/MultiplesOfThree",
-			backend: "",
-		},
-		open_project: "",
+		view_code: "https://github.com/JosenRomero/MultiplesOfThree",
 		download_apk: "apk/multiples_Of_three_release.apk",
 	},
 ]

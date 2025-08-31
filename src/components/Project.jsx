@@ -1,4 +1,4 @@
-import { Row, Col, Card } from "react-bootstrap"
+import { Col, Card } from "react-bootstrap"
 import { useTranslation } from "react-i18next"
 import { useContext } from "react"
 
@@ -31,29 +31,14 @@ const Project = ({ project, index }) => {
 						<p>{t(`project_descriptions.${index}`)}</p>
 					</div>
 				</Card.Body>
-				<Card.Footer className="p-3">
-					<Row className="my-2">
-						<ColButton
-							link={project.view_code.frontend}
-							col_className={
-								project.view_code.backend !== "" ? "d-grid gap-2 col-6" : "d-grid gap-2"
-							}
-							btn_className={project.view_code.backend !== "" ? "me-2" : ""}
-							btn_variant={"outline-secondary"}
-							text={"Frontend"}
-						/>
-						<ColButton
-							link={project.view_code.backend}
-							col_className={"d-grid gap-2 col-6"}
-							btn_variant={"outline-secondary"}
-							text={"Backend"}
-						/>
-					</Row>
-					<ColButton link={project.open_project} text={"Live Demo"} />
+				<Card.Footer className="p-3 d-grid gap-2">
+					<ColButton
+						link={project.view_code}
+						btn_variant={"outline-secondary"}
+						text={"View Code"}
+					/>
+					<ColButton link={project.open_project} text={"Visit Site"} />
 					<ColButton link={project.download_apk} text={"Download Demo"} />
-					<Row className="my-2">
-						<ColButton link={project.preview} text={"Preview"} btn_variant={"outline-primary"} />
-					</Row>
 				</Card.Footer>
 			</Card>
 		</Col>
