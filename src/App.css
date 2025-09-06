@@ -107,7 +107,7 @@ h3 {
 	color: rgba(255, 255, 255, 0.9) !important;
 }
 
-nav li > a:after {
+ul li > a:after {
 	display: block;
 	width: 0;
 	height: 2px;
@@ -116,15 +116,19 @@ nav li > a:after {
 	transition: width 0.2s;
 }
 
-nav li > a:hover:after {
+ul li > a:hover:after {
 	width: 100%;
 }
 
-nav li > .blueActive:after {
+ul li > .blueActive:after {
 	display: block !important;
 	width: 100% !important;
 	height: 2px !important;
 	background: linear-gradient(to right, #1363df 0%, #47b5ff 100%) !important;
 	content: "" !important;
 	transition: width 0.2s !important;
+}
+
+#dropdown-basic:hover, #iconSunny:hover {
+	opacity: 70%;
 }

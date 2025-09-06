@@ -1,4 +1,4 @@
-import { Navbar, Nav, Container, Dropdown, Button } from "react-bootstrap"
+import { Navbar, Nav, Container, Dropdown, Button, Offcanvas } from "react-bootstrap"
 import { useTranslation } from "react-i18next"
 import { useContext } from "react"
 
@@ -19,9 +19,8 @@ const Menu = () => {
 
 	return (
 		<Navbar expand="md" fixed="top" bg={theme} variant={theme} collapseOnSelect>
-			<Container fluid>
-				<Navbar.Brand href="/">JosenRomero</Navbar.Brand>
-				<Button variant="transparent" onClick={changeTheme}>
+			<Container>
+				<Button id="iconSunny" variant="transparent" onClick={changeTheme}>
 					{dark ? <IconSunny /> : <IconMoon />}
 				</Button>
 				<Dropdown className="ms-2">
@@ -49,16 +48,23 @@ const Menu = () => {
 						</Dropdown.Item>
 					</Dropdown.Menu>
 				</Dropdown>
-				<Navbar.Toggle aria-controls="basic-navbar-nav" />
-				<Navbar.Collapse id="basic-navbar-nav">
-					<Nav as={"ul"} id={`nav-link-${theme}`} className="ms-auto">
-						<ItemLink to="home">{t("menu.home")}</ItemLink>
-						<ItemLink to="about">{t("menu.about")}</ItemLink>
-						<ItemLink to="projects">{t("menu.projects")}</ItemLink>
-						<ItemLink to="contributions">{t("menu.open_source")}</ItemLink>
-						<ItemLink to="skills">{t("menu.skills")}</ItemLink>
-					</Nav>
-				</Navbar.Collapse>
+				<Navbar.Toggle aria-controls="offcanvasNavbar-expand-xl" />
+				<Navbar.Offcanvas id="offcanvasNavbar-expand-xl" data-bs-theme={theme}>
+					<Offcanvas.Header closeButton>
+						<Offcanvas.Title>
+							Portfolio | José Romero
+						</Offcanvas.Title>
+					</Offcanvas.Header>
+					<Offcanvas.Body id={`nav-link-${theme}`}>
+						<Nav as={"ul"} className="ms-auto">
+							<ItemLink to="home">{t("menu.home")}</ItemLink>
+							<ItemLink to="about">{t("menu.about")}</ItemLink>
+							<ItemLink to="projects">{t("menu.projects")}</ItemLink>
+							<ItemLink to="contributions">{t("menu.open_source")}</ItemLink>
+							<ItemLink to="skills">{t("menu.skills")}</ItemLink>
+						</Nav>
+					</Offcanvas.Body>
+				</Navbar.Offcanvas>
 			</Container>
 		</Navbar>
 	)
