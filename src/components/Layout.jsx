@@ -8,7 +8,7 @@ const Layout = ({ children }) => {
 	const { theme } = useContext(ThemeContext)
 
 	return (
-		<div id="principal" className={`theme-${theme}`}>
+		<div id="principal" className={`theme-${theme}`} data-bs-theme={theme}>
 			<Menu />
 			{children}
 			<Footer />

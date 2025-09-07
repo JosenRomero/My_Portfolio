@@ -11,9 +11,9 @@ const Project = ({ project, index }) => {
 
 	return (
 		<Col md={6}>
-			<Card className={`bg-${theme} mb-4 shadow-sm`}>
+			<Card className={"mb-4 shadow-sm"} bg={theme}>
 				<Card.Img className={project.imageSmall ? "imgSmall" : ""} src={project.image} />
-				<Card.Body className={theme == "dark" ? "text-light" : "text-dark"}>
+				<Card.Body>
 					<Card.Title>{project.title}</Card.Title>
 					<hr />
 					<div className="d-flex">

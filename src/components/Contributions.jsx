@@ -21,8 +21,8 @@ const Contributions = () => {
           { contributions.map((contribution, i) => {
             return (
               <Col key={i} xs={12} xl={10} className="mx-auto">
-                <Card className={`bg-${theme} mb-4 p-2`}>
-                  <Card.Body className={theme == "dark" ? "text-light" : "text-dark"}>
+                <Card className={"mb-4 p-2"} bg={theme}>
+                  <Card.Body>
                     <Card.Title>{contribution.title}</Card.Title>
                     <Card.Text className="mt-4" as={"div"}>
                       <ul>
