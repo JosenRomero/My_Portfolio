@@ -1,12 +1,14 @@
 import { Navbar, Nav, Container, Dropdown, Button, Offcanvas } from "react-bootstrap"
 import { useTranslation } from "react-i18next"
-import { useContext } from "react"
+import { useContext, useEffect, useState } from "react"
+import { scrollSpy } from "react-scroll"
 
 import { ThemeContext } from "../context/theme-context"
 import { IconSunny, IconMoon, IconTranslate } from "../Icons/Icons"
 import ItemLink from "./ItemLink"
 
 const Menu = () => {
+	const [spy, setSpy] = useState(true);
 	const { t, i18n } = useTranslation()
 
 	const { dark, theme, toggle } = useContext(ThemeContext)
@@ -16,6 +18,21 @@ const Menu = () => {
 	}
 
 	const changeTheme = () => toggle()
+
+	useEffect(() => {
+		scrollSpy.update()
+
+		const handleResize = () => {
+			if (spy) setSpy(false);
+		}
+
+		window.addEventListener('resize', handleResize)
+
+		return () => {
+			window.removeEventListener('resize', handleResize)
+		}
+
+	}, [])
 
 	return (
 		<Navbar expand="md" fixed="top" bg={theme} variant={theme} collapseOnSelect>
@@ -57,11 +74,11 @@ const Menu = () => {
 					</Offcanvas.Header>
 					<Offcanvas.Body id={`nav-link-${theme}`}>
 						<Nav as={"ul"} className="ms-auto">
-							<ItemLink to="home">{t("menu.home")}</ItemLink>
-							<ItemLink to="about">{t("menu.about")}</ItemLink>
-							<ItemLink to="projects">{t("menu.projects")}</ItemLink>
-							<ItemLink to="contributions">{t("menu.open_source")}</ItemLink>
-							<ItemLink to="skills">{t("menu.skills")}</ItemLink>
+							<ItemLink to="home" spy={spy}>{t("menu.home")}</ItemLink>
+							<ItemLink to="about" spy={spy}>{t("menu.about")}</ItemLink>
+							<ItemLink to="projects" spy={spy}>{t("menu.projects")}</ItemLink>
+							<ItemLink to="contributions" spy={spy}>{t("menu.open_source")}</ItemLink>
+							<ItemLink to="skills" spy={spy}>{t("menu.skills")}</ItemLink>
 						</Nav>
 					</Offcanvas.Body>
 				</Navbar.Offcanvas>
