@@ -14,7 +14,6 @@
 		"home": "Home",
 		"about": "About me",
 		"projects": "Projects",
-		"open_source": "Open Source",
 		"skills": "Skills"
 	},
 	"myProjects": "Personal Projects",
@@ -26,15 +25,6 @@
 		"4": "An app to save notes.",
 		"5": "A fun game that tests your math skills."
 	},
-	"contributions_title": "Contributions to open source",
-	"contributions_descriptions": {
-		"0": "Contributed 16 merged pull requests, making consistent additions to the codebase.",
-		"1": "Frontend Feature Development: Implemented the Workout section by integrating video components to display each participant's training routines, enriching the platform's content.",
-		"2": "UX Optimization: Enhanced the interface by integrating smooth animations into the BoxerGallery, significantly improving user interaction and experience.",
-		"3": "Package Optimization: Achieved a 23% reduction (15 KB) in the npm package size by identifying and excluding unnecessary files through updates to the .gitignore file",
-		"4": "New Feature: Implemented support for Salvadoran dishes in the randFood function, significantly expanding the range of example data available."
-	},
-	"contribution_btn": "View on GitHub",
 	"buttons": {
 		"view_code": "View Code",
 		"visit_site": "Visit Site",

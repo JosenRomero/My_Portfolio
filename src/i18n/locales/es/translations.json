@@ -14,7 +14,6 @@
 		"home": "Incio",
 		"about": "Sobre mí",
 		"projects": "Proyectos",
-		"open_source": "Open Source",
 		"skills": "Habilidades"
 	},
 	"myProjects": "Proyectos Personales",
@@ -26,15 +25,6 @@
 		"4": "Una aplicación para guardar notas.",
 		"5": "Un juego que pone a prueba tus habilidades matemáticas."
 	},
-	"contributions_title": "Contribuciones open source",
-	"contributions_descriptions": {
-		"0": "Contribuí con 16 pull requests mergeadas, realizando aportes consistentes a la codebase.",
-		"1": "Desarrollo de Features Frontend: Implementé la sección Workout, integrando componentes de video para mostrar los entrenamientos de cada participante, enriqueciendo el contenido de la plataforma.",
-		"2": "Optimización de UX: Enriquecí la interfaz mediante la integración de animaciones fluidas en la BoxerGallery, mejorando significativamente la interacción y la experiencia del usuario.",
-		"3": "Optimización de Paquete: Logré una reducción del 23% (15 KB) en el tamaño del paquete npm al identificar y excluir archivos innecesarios mediante la actualización del archivo .gitignore",
-		"4": "Nuevas Funcionalidades: Implementé soporte para comida salvadoreña en la función randFood, ampliando las opciones de datos de ejemplo disponibles."
-	},
-	"contribution_btn": "Ver en GitHub",
 	"buttons": {
 		"view_code": "Ver Código",
 		"visit_site": "Ver Sitio Web",

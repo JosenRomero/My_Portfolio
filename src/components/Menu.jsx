@@ -77,7 +77,6 @@ const Menu = () => {
 							<ItemLink to="home" spy={spy}>{t("menu.home")}</ItemLink>
 							<ItemLink to="about" spy={spy}>{t("menu.about")}</ItemLink>
 							<ItemLink to="projects" spy={spy}>{t("menu.projects")}</ItemLink>
-							<ItemLink to="contributions" spy={spy}>{t("menu.open_source")}</ItemLink>
 							<ItemLink to="skills" spy={spy}>{t("menu.skills")}</ItemLink>
 						</Nav>
 					</Offcanvas.Body>
